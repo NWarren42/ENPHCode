@@ -1,0 +1,3 @@
+Word = "watermelon"
+Smallest letter = 'a'
+Largest letter = 'w'

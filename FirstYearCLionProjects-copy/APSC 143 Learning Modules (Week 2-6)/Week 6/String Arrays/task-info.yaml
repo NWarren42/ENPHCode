@@ -1,0 +1,86 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    giraffe effarig
+    elegance ecnagele
+    osmosis sisomso
+    universal lasrevinu
+    victorian nairotciv
+    romania ainamor
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_6-String_Arrays)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 19
+    length: 32
+    placeholder_text: /* Include the string library */
+    initial_state:
+      length: 32
+      offset: 19
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '#include <string.h>'
+  - offset: 70
+    length: 48
+    placeholder_text: /* declare & initialize the string array list */
+    initial_state:
+      length: 48
+      offset: 70
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      char list[6][10] = {"giraffe",
+                              "elegance",
+                              "osmosis",
+                              "universal",
+                              "victorian",
+                              "romania"};
+  - offset: 252
+    length: 33
+    placeholder_text: /* print the current character */
+    initial_state:
+      length: 33
+      offset: 252
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: printf("%c", list[i][c]);
+  text: |-
+    #include <stdio.h>
+    /* Include the string library */
+
+    int main() {
+        /* declare & initialize the string array list */
+        for(int i = 0; i < 6; i++) {
+            printf("%s ", list[i]);
+            for(int c = strlen(list[i]) - 1; c >= 0; c--) {
+                /* print the current character */
+            }
+            printf("\n");
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

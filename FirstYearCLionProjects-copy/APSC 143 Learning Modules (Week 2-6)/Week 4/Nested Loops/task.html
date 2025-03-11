@@ -1,0 +1,61 @@
+<html>
+
+<h2>Nested Loops</h2>
+
+<p>From the last few examples, you have already seen how we can nest selection
+structures within loops. In fact, we can also nest loops within selection
+structures, or even loops within loops! This task will investigate the latter.</p>
+
+<p>This task will have you write a nested loop that, based on the int variable
+<strong>upTo</strong> provided by the user, will compute all of the <strong>
+factors</strong> of <strong>each value</strong> from <strong>1 to upTo</strong>.
+The below description should provide some insight on how to set
+up the structure of the program.</p>
+
+<p>The outer loop should iterate from <strong>upTo</strong> to <strong>1</strong>
+inclusive (ie. de-incrementing), and use <strong>upTo</strong> as the loop
+counter. Therefore, as you iterate the value of upTo will decrease (see <strong>
+Hint 1</strong> and/or <strong>Hint 2</strong>). Within each iteration:</p>
+
+<ul>Output the value of upTo, using the following format where <strong>x</strong>
+substitutes the value of upTo (including a new line, see <strong>Hint 3</strong>):</ul>
+
+<ul><strong>Factors of x:</strong></ul>
+
+<ul>Then, write an inner loop that iterates from <strong>1 to upTo</strong>.
+Within each iteration:</ul>
+
+<ul><ul>If <strong>upTo</strong> is divisible by the <strong>inner loop counter
+</strong>, then print the value of the inner loop counter. For example, if upTo
+divided by 3 is a whole number, then output the value 3 followed by a single
+space (DO NOT print a new line here, see <strong>Hint 4</strong>).</ul></ul>
+
+<ul>After the inner loop, print a new line.</ul>
+
+<p>As this is confusing, reviewing the hints is encouraged. To complete this task,
+input the value <strong>14</strong> when prompted.</p>
+
+<strong> Developer's note: 'i' is declared outside of the loops to be used to
+check if your answer is correct. Therefore, you must use 'i' as your variable in
+the nested loop, but do not have to redeclare it.</strong>
+
+<div class="hint">
+    while (upTo is positive) { ... de-increment upTo; }
+</div>
+
+<div class="hint">
+    for(upTo; upTo is positive; de-increment upTo) { ... }
+</div>
+
+<div class="hint">
+    print <strong>"Factors of %d:\n"</strong> with the value of upTo.
+</div>
+
+<div class="hint">
+    if (upTo is divisible by i) { print "i " }
+</div>
+
+</p> Once you complete this task, the console will print a password for
+you to use to access the <strong>"Week 4 Learning Module Completion Quiz"</strong> on OnQ. </p>
+
+</html>

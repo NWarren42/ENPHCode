@@ -1,0 +1,50 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    x rounds up to 2
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Math_Library_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 87
+    length: 38
+    placeholder_text: /* 1 of the rounding functions here */
+    initial_state:
+      length: 38
+      offset: 87
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: ceil(x)
+  text: |-
+    #include <stdio.h>
+    #include <math.h>
+
+    int main() {
+        float x = 1.085;
+        int newX = /* 1 of the rounding functions here */;
+        printf("x rounds up to %d\n", newX);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

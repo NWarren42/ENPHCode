@@ -1,0 +1,20 @@
+<html>
+
+<h2>String Input</h2>
+
+<p>Using the same example, this program prompts the user for an 8-letter word and reads it
+into the string <strong>word</strong>. However, there is one key difference that solves our
+previous memory issues - the format specifier.</p>
+
+<p>Because we want an 8-letter word, the scanf argument uses the format specifier <strong>
+%8s</strong>, permitting only 8 characters (excluding the null character) to be read into
+word. Again, let's test the limitations of this updated method.</p>
+
+<p>First enter a word that is<strong>less</strong> than 8 letters, and then a word that is
+<strong>more</strong> than 8 letters. You can see that the longer word has been <strong>cut
+off</strong> at the 8 letter mark!</p>
+
+<p>However, this method still has 1 flaw. Change the length of word to a large value (at least
+30) and input a sentence. Now we have another, slightly different problem!</p>
+
+</html>

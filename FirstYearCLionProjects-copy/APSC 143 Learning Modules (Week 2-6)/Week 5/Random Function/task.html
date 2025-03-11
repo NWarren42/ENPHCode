@@ -1,0 +1,45 @@
+<html>
+
+<h2>The Random Function</h2>
+
+<p>Now let's use arrays to introduce a new function: <strong>rand()</strong>.</p>
+
+<p><strong>rand()</strong> will return an integer value that is between 0 and
+a very large value. Generally, we want a value in a specific domain, which can
+be generated with the following expression:</p>
+
+<p><strong>int x = rand() % (max - min + 1) + min;</strong></p>
+
+<p>where <strong>max</strong> is the largest value of the domain and <strong>min
+</strong> is the smallest. The modulus operator will restrict the value to a certain
+range, while the min addition will translate the range to the desired domain.</p>
+
+<p>For testing purposes, we <strong>seed</strong> the random function so that
+it returns the same random values each run. To do this, call <strong>srand(int)
+</strong> before any rand() calls are used. Use <strong>2</strong> as the argument.</p>
+
+<p>Both of these functions are part of the <strong>standard library</strong>. You can
+include it with the tag <strong>stdlib.h</strong>.</p>
+
+<p>For this task, you will be generating a number of random integers equal to <strong>
+TRIALS</strong>. These integers will have the domain [1, 50], which is represented by
+<strong>SIZE</strong>. You will track the <strong>number of times</strong> a given value
+has been generated using the <strong>distribute</strong> array; the first element of
+distribute (index 0) will count how many 1's appear, and so on.</p>
+
+<p>Code the following into the for loop:</p>
+
+<ul>Generate a random value in the domain [1, 50] and store it in <strong>
+randoms</strong>;</ul>
+<ul>Increment the element of <strong>distribute</strong> that is associated with
+that value.</ul>
+
+<p>Keep in mind that the index of distribute does not quite line up with the generated
+value. See the hint if you get stuck! You are encouraged to experiment with the
+function, as you should be comfortable with it when you work on the assignment.</p>
+
+<div class="hint">
+  You can increment the correct element by using distribute[randoms - min]
+</div>
+
+</html>

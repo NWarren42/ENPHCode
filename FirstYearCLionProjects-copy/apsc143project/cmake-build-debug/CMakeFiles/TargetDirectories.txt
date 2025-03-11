@@ -1,0 +1,3 @@
+C:/Users/Noah/CLionProjects/apsc143project/cmake-build-debug/CMakeFiles/apsc143project.dir
+C:/Users/Noah/CLionProjects/apsc143project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Noah/CLionProjects/apsc143project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

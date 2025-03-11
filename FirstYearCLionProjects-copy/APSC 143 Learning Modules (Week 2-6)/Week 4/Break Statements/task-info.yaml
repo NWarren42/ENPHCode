@@ -1,0 +1,67 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Current debt: 11035.19
+    Current debt: 9983.55
+    Current debt: 8837.26
+    Current debt: 7587.80
+    Current debt: 6225.89
+    Current debt: 4741.41
+    Current debt: 3123.33
+    Current debt: 1359.62
+    Debt repayed!
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_4_Break_Statements)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 186
+    length: 25
+    placeholder_text: /* breaking check here */
+    initial_state:
+      length: 25
+      offset: 186
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      if(payment >= debt) {
+                  debt = 0;
+                  break;
+              }
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        float debt = 12000;
+        float payment = 2044.81;
+        for(int months = 12; months > 0; months--) {
+            debt *= 1.09; // compound interest
+            /* breaking check here */
+            debt -= payment;
+            printf("Current debt: %.2f\n", debt);
+        }
+        printf("Debt repayed!\n");
+    }
+  learner_created: false
+status: Unchecked
+record: -1

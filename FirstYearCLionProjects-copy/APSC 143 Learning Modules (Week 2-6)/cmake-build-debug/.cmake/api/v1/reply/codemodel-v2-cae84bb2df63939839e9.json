@@ -1,0 +1,2139 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Week 2/Expressions 1",
+					"jsonFile" : "directory-Week 2.Expressions 1-Debug-d42b578ba7795836a576.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Week 2/Expressions 1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Week 2/Expressions 2",
+					"jsonFile" : "directory-Week 2.Expressions 2-Debug-e6541ee91848d7972445.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Week 2/Expressions 2",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Week 2/Expressions 3",
+					"jsonFile" : "directory-Week 2.Expressions 3-Debug-dee764d7677dddad3a78.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "Week 2/Expressions 3",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Week 2/Expressions 4",
+					"jsonFile" : "directory-Week 2.Expressions 4-Debug-92002d45117d05ba20c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Week 2/Expressions 4",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "Week 2/Expressions 5",
+					"jsonFile" : "directory-Week 2.Expressions 5-Debug-f3602c5c955d33db4ab8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "Week 2/Expressions 5",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "Week 2/First Program",
+					"jsonFile" : "directory-Week 2.First Program-Debug-023cb433e9204065ed4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "Week 2/First Program",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Week 2/Math Library 1",
+					"jsonFile" : "directory-Week 2.Math Library 1-Debug-9c8676759879d5ade09a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "Week 2/Math Library 1",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "Week 2/Math Library 2",
+					"jsonFile" : "directory-Week 2.Math Library 2-Debug-29b6c1825b52fb7ed46a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "Week 2/Math Library 2",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "Week 2/Math Library 3",
+					"jsonFile" : "directory-Week 2.Math Library 3-Debug-07a8895d56f719ad4a2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "Week 2/Math Library 3",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "Week 2/Output 1",
+					"jsonFile" : "directory-Week 2.Output 1-Debug-d9c0da071764b80b0e61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "Week 2/Output 1",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "Week 2/Output 2",
+					"jsonFile" : "directory-Week 2.Output 2-Debug-16f58f27b2d501311d90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "Week 2/Output 2",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "Week 2/Output 3",
+					"jsonFile" : "directory-Week 2.Output 3-Debug-5bbb4f7fcc0d0e204002.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "Week 2/Output 3",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "Week 2/Truncation",
+					"jsonFile" : "directory-Week 2.Truncation-Debug-d9dd2c4155c3d15c9c21.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "Week 2/Truncation",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "Week 2/User Input 1",
+					"jsonFile" : "directory-Week 2.User Input 1-Debug-43b40e97792e347849b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "Week 2/User Input 1",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "Week 2/User Input 2",
+					"jsonFile" : "directory-Week 2.User Input 2-Debug-a3cb8dd3c290e905edef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "Week 2/User Input 2",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "Week 2/User Input 3",
+					"jsonFile" : "directory-Week 2.User Input 3-Debug-27b5f944fa7117de05cc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "Week 2/User Input 3",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "Week 2/Variables 1",
+					"jsonFile" : "directory-Week 2.Variables 1-Debug-a0c17c7e091b3c12b7d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "Week 2/Variables 1",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "Week 2/Variables 2",
+					"jsonFile" : "directory-Week 2.Variables 2-Debug-0c571bd66e998e30d119.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "Week 2/Variables 2",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "Week 2/Variables 3",
+					"jsonFile" : "directory-Week 2.Variables 3-Debug-e1bc5e51ea572e1221ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "Week 2/Variables 3",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "Week 3/Chained Statements 1",
+					"jsonFile" : "directory-Week 3.Chained Statements 1-Debug-aaf2550e07ec1643dee0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "Week 3/Chained Statements 1",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "Week 3/Chained Statements 2",
+					"jsonFile" : "directory-Week 3.Chained Statements 2-Debug-72029add555ee4ff996e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "Week 3/Chained Statements 2",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "Week 3/Conditional Operator",
+					"jsonFile" : "directory-Week 3.Conditional Operator-Debug-1ecc6cd79791b2c3d0de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "Week 3/Conditional Operator",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "Week 3/If Else Statements 1",
+					"jsonFile" : "directory-Week 3.If Else Statements 1-Debug-32d8a6c6ab98d7e29988.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "Week 3/If Else Statements 1",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "Week 3/If Else Statements 2",
+					"jsonFile" : "directory-Week 3.If Else Statements 2-Debug-9ba0ee3974ad2e7000b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 24,
+					"source" : "Week 3/If Else Statements 2",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "Week 3/Logical Conditions 1",
+					"jsonFile" : "directory-Week 3.Logical Conditions 1-Debug-a96effd42eb27126cef0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 25,
+					"source" : "Week 3/Logical Conditions 1",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "Week 3/Logical Conditions 2",
+					"jsonFile" : "directory-Week 3.Logical Conditions 2-Debug-a90407749064539b1133.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 26,
+					"source" : "Week 3/Logical Conditions 2",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "Week 3/Logical Conditions 3",
+					"jsonFile" : "directory-Week 3.Logical Conditions 3-Debug-727f0d65237625841641.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 27,
+					"source" : "Week 3/Logical Conditions 3",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "Week 3/Logical Conditions 4",
+					"jsonFile" : "directory-Week 3.Logical Conditions 4-Debug-b219932cefa27a750ed2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 28,
+					"source" : "Week 3/Logical Conditions 4",
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"build" : "Week 3/Nested Structures",
+					"jsonFile" : "directory-Week 3.Nested Structures-Debug-3ec324c4a66a00f569a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 29,
+					"source" : "Week 3/Nested Structures",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "Week 3/Switch Case Statements",
+					"jsonFile" : "directory-Week 3.Switch Case Statements-Debug-e79199b5ebc4ae625a4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 30,
+					"source" : "Week 3/Switch Case Statements",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "Week 4/Break Statements",
+					"jsonFile" : "directory-Week 4.Break Statements-Debug-2d19814f66f31e896364.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 31,
+					"source" : "Week 4/Break Statements",
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"build" : "Week 4/Continue Statements",
+					"jsonFile" : "directory-Week 4.Continue Statements-Debug-f2b24086f9128fe960ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 32,
+					"source" : "Week 4/Continue Statements",
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"build" : "Week 4/Do While Loops 1",
+					"jsonFile" : "directory-Week 4.Do While Loops 1-Debug-760a57da48ce5d9223ca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 33,
+					"source" : "Week 4/Do While Loops 1",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "Week 4/Do While Loops 2",
+					"jsonFile" : "directory-Week 4.Do While Loops 2-Debug-32025882cf56082325d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 34,
+					"source" : "Week 4/Do While Loops 2",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "Week 4/For Loops 1",
+					"jsonFile" : "directory-Week 4.For Loops 1-Debug-26492ecc98c3a8df09b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 35,
+					"source" : "Week 4/For Loops 1",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "Week 4/For Loops 2",
+					"jsonFile" : "directory-Week 4.For Loops 2-Debug-1c8aaa91f05709c4d52d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 36,
+					"source" : "Week 4/For Loops 2",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "Week 4/Infinite Loops",
+					"jsonFile" : "directory-Week 4.Infinite Loops-Debug-9c865715342c91cd6ad6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 37,
+					"source" : "Week 4/Infinite Loops",
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"build" : "Week 4/Nested Loops",
+					"jsonFile" : "directory-Week 4.Nested Loops-Debug-7233d34fb490690f41d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 38,
+					"source" : "Week 4/Nested Loops",
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"build" : "Week 4/While Loops 1",
+					"jsonFile" : "directory-Week 4.While Loops 1-Debug-ea3f9fea6aff181bd559.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 39,
+					"source" : "Week 4/While Loops 1",
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"build" : "Week 4/While Loops 2",
+					"jsonFile" : "directory-Week 4.While Loops 2-Debug-8b9b688d9a7ca2fa72f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 40,
+					"source" : "Week 4/While Loops 2",
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"build" : "Week 5/1D Arrays 1",
+					"jsonFile" : "directory-Week 5.1D Arrays 1-Debug-2f0bf94a1fd229866068.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 41,
+					"source" : "Week 5/1D Arrays 1",
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"build" : "Week 5/1D Arrays 2",
+					"jsonFile" : "directory-Week 5.1D Arrays 2-Debug-04e4aec6a52d95135661.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 42,
+					"source" : "Week 5/1D Arrays 2",
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"build" : "Week 5/1D Arrays 3",
+					"jsonFile" : "directory-Week 5.1D Arrays 3-Debug-6f9dffd53cf3099e0ed6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 43,
+					"source" : "Week 5/1D Arrays 3",
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"build" : "Week 5/2D Arrays 1",
+					"jsonFile" : "directory-Week 5.2D Arrays 1-Debug-b5570ef9980f71b336c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 44,
+					"source" : "Week 5/2D Arrays 1",
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"build" : "Week 5/2D Arrays 2",
+					"jsonFile" : "directory-Week 5.2D Arrays 2-Debug-9c708d06ca205de84ba8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 45,
+					"source" : "Week 5/2D Arrays 2",
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"build" : "Week 5/2D Arrays 3",
+					"jsonFile" : "directory-Week 5.2D Arrays 3-Debug-de8477c660d416820427.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 46,
+					"source" : "Week 5/2D Arrays 3",
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"build" : "Week 5/Random Function",
+					"jsonFile" : "directory-Week 5.Random Function-Debug-2ca3b8b3db65f560dfb8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 47,
+					"source" : "Week 5/Random Function",
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"build" : "Week 6/String Arrays",
+					"jsonFile" : "directory-Week 6.String Arrays-Debug-84a9da1342143345ee7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 48,
+					"source" : "Week 6/String Arrays",
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"build" : "Week 6/String Functions 1",
+					"jsonFile" : "directory-Week 6.String Functions 1-Debug-c4d680b1d9cf82f1e25b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 49,
+					"source" : "Week 6/String Functions 1",
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"build" : "Week 6/String Functions 2",
+					"jsonFile" : "directory-Week 6.String Functions 2-Debug-484728bb35cd80de8a3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 50,
+					"source" : "Week 6/String Functions 2",
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"build" : "Week 6/String Functions 3",
+					"jsonFile" : "directory-Week 6.String Functions 3-Debug-6b204e105b44c7659d20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 51,
+					"source" : "Week 6/String Functions 3",
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"build" : "Week 6/String Functions 4",
+					"jsonFile" : "directory-Week 6.String Functions 4-Debug-5490c6c7e8fdde90176e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 52,
+					"source" : "Week 6/String Functions 4",
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"build" : "Week 6/String Input 1",
+					"jsonFile" : "directory-Week 6.String Input 1-Debug-25c18c35cb71414d1185.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 53,
+					"source" : "Week 6/String Input 1",
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"build" : "Week 6/String Input 2",
+					"jsonFile" : "directory-Week 6.String Input 2-Debug-51659d3b601f7463d7a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 54,
+					"source" : "Week 6/String Input 2",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "Week 6/String Input 3",
+					"jsonFile" : "directory-Week 6.String Input 3-Debug-22cf7549c0d6070b2b62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 55,
+					"source" : "Week 6/String Input 3",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "Week 6/Strings 1",
+					"jsonFile" : "directory-Week 6.Strings 1-Debug-1ef0a8d30625e6211377.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 56,
+					"source" : "Week 6/Strings 1",
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"build" : "Week 6/Strings 2",
+					"jsonFile" : "directory-Week 6.Strings 2-Debug-981399e0187f3a9e75db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 57,
+					"source" : "Week 6/Strings 2",
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"build" : "Week 6/Strings 3",
+					"jsonFile" : "directory-Week 6.Strings 3-Debug-0970676f19f382f213e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 58,
+					"source" : "Week 6/Strings 3",
+					"targetIndexes" : 
+					[
+						57
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "APSC_143_Learning_Module"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "global-Week_2-Expressions_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "global-Week_2-Expressions_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "global-Week_2-Expressions_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "global-Week_2-Expressions_4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "global-Week_2-Expressions_5",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "global-Week_2-First_Program",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "global-Week_2-Math_Library_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "global-Week_2-Math_Library_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "global-Week_2-Math_Library_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "global-Week_2-Output_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "global-Week_2-Output_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "global-Week_2-Output_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "global-Week_2-Truncation",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "global-Week_2-User_Input_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "global-Week_2-User_Input_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "global-Week_2-User_Input_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "global-Week_2-Variables_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "global-Week_2-Variables_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "global-Week_2-Variables_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "global-Week_3-Chained_Statements_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						21
+					],
+					"name" : "global-Week_3-Chained_Statements_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						22
+					],
+					"name" : "global-Week_3-Conditional_Operator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "global-Week_3-If_Else_Statements_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "global-Week_3-If_Else_Statements_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "global-Week_3-Logical_Conditions_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "global-Week_3-Logical_Conditions_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "global-Week_3-Logical_Conditions_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "global-Week_3-Logical_Conditions_4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "global-Week_3-Nested_Structures",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "global-Week_3-Switch_Case_Statements",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "global-Week_4_Break_Statements",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						38
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						32
+					],
+					"name" : "global-Week_4_Continue_Statements",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						39
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						33
+					],
+					"name" : "global-Week_4-Do_While_Loops_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						34
+					],
+					"name" : "global-Week_4-Do_While_Loops_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						35
+					],
+					"name" : "global-Week_4-For_Loops_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						36
+					],
+					"name" : "global-Week_4-For_Loops_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						37
+					],
+					"name" : "global-Week_4-Infinite_Loops",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						38
+					],
+					"name" : "global-Week_4-Nested_Loops",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						35
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						39
+					],
+					"name" : "global-Week_4-While_Loops_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						40
+					],
+					"name" : "global-Week_4-While_Loops_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						37
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						41
+					],
+					"name" : "global-Week_5-1D_Arrays_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						42
+					],
+					"name" : "global-Week_5-1D_Arrays_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						41
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						43
+					],
+					"name" : "global-Week_5-1D_Arrays_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						42
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						44
+					],
+					"name" : "global-Week_5-2D_Arrays_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						43
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						45
+					],
+					"name" : "global-Week_5-2D_Arrays_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						44
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						46
+					],
+					"name" : "global-Week_5-2D_Arrays_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						45
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						47
+					],
+					"name" : "global-Week_5-Random_Function",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						46
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						48
+					],
+					"name" : "global-Week_6-String_Arrays",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						47
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						49
+					],
+					"name" : "global-Week_6-String_Functions_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						48
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						50
+					],
+					"name" : "global-Week_6-String_Functions_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						49
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						51
+					],
+					"name" : "global-Week_6-String_Functions_4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						51
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						52
+					],
+					"name" : "global-Week_6-String_Functions_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						50
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						53
+					],
+					"name" : "global-Week_6-String_Input_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						52
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						54
+					],
+					"name" : "global-Week_6-String_Input_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						55
+					],
+					"name" : "global-Week_6-String_Input_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						56
+					],
+					"name" : "global-Week_6-Strings_1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						55
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						57
+					],
+					"name" : "global-Week_6-Strings_2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						56
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						58
+					],
+					"name" : "global-Week_6-Strings_3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						57
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "global-Week_2-Expressions_1-run::@2ec839c77feddda81132",
+					"jsonFile" : "target-global-Week_2-Expressions_1-run-Debug-3d4d3d3c9ce535f3a274.json",
+					"name" : "global-Week_2-Expressions_1-run",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "global-Week_2-Expressions_2-run::@71bb901d3f342bc043b5",
+					"jsonFile" : "target-global-Week_2-Expressions_2-run-Debug-34eed88f7fb033d1f334.json",
+					"name" : "global-Week_2-Expressions_2-run",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "global-Week_2-Expressions_3-run::@c3fdc7c5271f7e67a39b",
+					"jsonFile" : "target-global-Week_2-Expressions_3-run-Debug-7ac8a59eeed1a971f2a9.json",
+					"name" : "global-Week_2-Expressions_3-run",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "global-Week_2-Expressions_4-run::@a4d9774b7caf3eb0d617",
+					"jsonFile" : "target-global-Week_2-Expressions_4-run-Debug-8305df89ba3ea6e4fe92.json",
+					"name" : "global-Week_2-Expressions_4-run",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "global-Week_2-Expressions_5-run::@8cc32c14cd0c31edc5bd",
+					"jsonFile" : "target-global-Week_2-Expressions_5-run-Debug-a00d3c7ee1d6b561e840.json",
+					"name" : "global-Week_2-Expressions_5-run",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "global-Week_2-First_Program-run::@26d3a1e8f392402932a4",
+					"jsonFile" : "target-global-Week_2-First_Program-run-Debug-9c26e18207ce01c68105.json",
+					"name" : "global-Week_2-First_Program-run",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "global-Week_2-Math_Library_1-run::@769c71e01d206eb4c43f",
+					"jsonFile" : "target-global-Week_2-Math_Library_1-run-Debug-4ec65f95f716d9752c0f.json",
+					"name" : "global-Week_2-Math_Library_1-run",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "global-Week_2-Math_Library_2-run::@3490e98660111281e563",
+					"jsonFile" : "target-global-Week_2-Math_Library_2-run-Debug-ee87af4c196e2ef5b129.json",
+					"name" : "global-Week_2-Math_Library_2-run",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "global-Week_2-Math_Library_3-run::@c2144714f1c91e8a993f",
+					"jsonFile" : "target-global-Week_2-Math_Library_3-run-Debug-48b6809dfeb24f59ded8.json",
+					"name" : "global-Week_2-Math_Library_3-run",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "global-Week_2-Output_1-run::@946bb58803600723a9a0",
+					"jsonFile" : "target-global-Week_2-Output_1-run-Debug-e7d956d7e18ffce4eb9e.json",
+					"name" : "global-Week_2-Output_1-run",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "global-Week_2-Output_2-run::@c6bc3b5892456792988e",
+					"jsonFile" : "target-global-Week_2-Output_2-run-Debug-68ab15079834c905ae4b.json",
+					"name" : "global-Week_2-Output_2-run",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "global-Week_2-Output_3-run::@cfdeff733e20c5d167f2",
+					"jsonFile" : "target-global-Week_2-Output_3-run-Debug-7b1ca0d6354578830828.json",
+					"name" : "global-Week_2-Output_3-run",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "global-Week_2-Truncation-run::@d3292e2d23478ead275e",
+					"jsonFile" : "target-global-Week_2-Truncation-run-Debug-0bf50b92bfd6e63053dc.json",
+					"name" : "global-Week_2-Truncation-run",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "global-Week_2-User_Input_1-run::@1729a39711d03b1f1b90",
+					"jsonFile" : "target-global-Week_2-User_Input_1-run-Debug-d148567c0b4d8c730bd1.json",
+					"name" : "global-Week_2-User_Input_1-run",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "global-Week_2-User_Input_2-run::@b57bb22bc64390afc387",
+					"jsonFile" : "target-global-Week_2-User_Input_2-run-Debug-9d6249f2429f5719f1e6.json",
+					"name" : "global-Week_2-User_Input_2-run",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "global-Week_2-User_Input_3-run::@d9379b57618b57345706",
+					"jsonFile" : "target-global-Week_2-User_Input_3-run-Debug-ab0b624e6193fc69707b.json",
+					"name" : "global-Week_2-User_Input_3-run",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "global-Week_2-Variables_1-run::@ea3fff378e827934f116",
+					"jsonFile" : "target-global-Week_2-Variables_1-run-Debug-4740d95a17f8d3902538.json",
+					"name" : "global-Week_2-Variables_1-run",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "global-Week_2-Variables_2-run::@4a0293d90c885f2c5c32",
+					"jsonFile" : "target-global-Week_2-Variables_2-run-Debug-14247d5445978afb5092.json",
+					"name" : "global-Week_2-Variables_2-run",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "global-Week_2-Variables_3-run::@fba9f1025d82bd23b4e7",
+					"jsonFile" : "target-global-Week_2-Variables_3-run-Debug-07439e50204ee5e27d7a.json",
+					"name" : "global-Week_2-Variables_3-run",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "global-Week_3-Chained_Statements_1-run::@a7bc554be75e4c6993c0",
+					"jsonFile" : "target-global-Week_3-Chained_Statements_1-run-Debug-3d4d8a419110752601df.json",
+					"name" : "global-Week_3-Chained_Statements_1-run",
+					"projectIndex" : 20
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "global-Week_3-Chained_Statements_2-run::@744bbec77c1dbee5700d",
+					"jsonFile" : "target-global-Week_3-Chained_Statements_2-run-Debug-cfaffaa8af0ce19dd897.json",
+					"name" : "global-Week_3-Chained_Statements_2-run",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "global-Week_3-Conditional_Operator-run::@6f370540adfbce8c4b4e",
+					"jsonFile" : "target-global-Week_3-Conditional_Operator-run-Debug-57e70a9289358da54786.json",
+					"name" : "global-Week_3-Conditional_Operator-run",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "global-Week_3-If_Else_Statements_1-run::@9fc55b7f1422ed33b7d4",
+					"jsonFile" : "target-global-Week_3-If_Else_Statements_1-run-Debug-da66589ef6788ce5a382.json",
+					"name" : "global-Week_3-If_Else_Statements_1-run",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "global-Week_3-If_Else_Statements_2-run::@cf3da57c873c87d568e6",
+					"jsonFile" : "target-global-Week_3-If_Else_Statements_2-run-Debug-7bfa2175c54fc56d2413.json",
+					"name" : "global-Week_3-If_Else_Statements_2-run",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "global-Week_3-Logical_Conditions_1-run::@b6fec6952c54199be789",
+					"jsonFile" : "target-global-Week_3-Logical_Conditions_1-run-Debug-e23cdeeff91af40bc5f9.json",
+					"name" : "global-Week_3-Logical_Conditions_1-run",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "global-Week_3-Logical_Conditions_2-run::@f0a248a6362dc415cc65",
+					"jsonFile" : "target-global-Week_3-Logical_Conditions_2-run-Debug-52f6ce42f48e10ce53ac.json",
+					"name" : "global-Week_3-Logical_Conditions_2-run",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "global-Week_3-Logical_Conditions_3-run::@74d9212307217ae8e3df",
+					"jsonFile" : "target-global-Week_3-Logical_Conditions_3-run-Debug-7495bc541f6bbf517d99.json",
+					"name" : "global-Week_3-Logical_Conditions_3-run",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "global-Week_3-Logical_Conditions_4-run::@8f06912734e62f090b13",
+					"jsonFile" : "target-global-Week_3-Logical_Conditions_4-run-Debug-26779d41952aa8e02b04.json",
+					"name" : "global-Week_3-Logical_Conditions_4-run",
+					"projectIndex" : 28
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "global-Week_3-Nested_Structures-run::@ae3a8b20976ff6530e8f",
+					"jsonFile" : "target-global-Week_3-Nested_Structures-run-Debug-ed34e5f828ff04e9e1cf.json",
+					"name" : "global-Week_3-Nested_Structures-run",
+					"projectIndex" : 29
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "global-Week_3-Switch_Case_Statements-run::@01e4028ec513fb126f75",
+					"jsonFile" : "target-global-Week_3-Switch_Case_Statements-run-Debug-23db701cdf4913cf3652.json",
+					"name" : "global-Week_3-Switch_Case_Statements-run",
+					"projectIndex" : 30
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "global-Week_4-Do_While_Loops_1-run::@8666af001afa662b8273",
+					"jsonFile" : "target-global-Week_4-Do_While_Loops_1-run-Debug-4d38942b0ad25de19f31.json",
+					"name" : "global-Week_4-Do_While_Loops_1-run",
+					"projectIndex" : 33
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "global-Week_4-Do_While_Loops_2-run::@a74b44e774613b135421",
+					"jsonFile" : "target-global-Week_4-Do_While_Loops_2-run-Debug-dec1347234e3e70fc5d3.json",
+					"name" : "global-Week_4-Do_While_Loops_2-run",
+					"projectIndex" : 34
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "global-Week_4-For_Loops_1-run::@1b896f81e769e13179de",
+					"jsonFile" : "target-global-Week_4-For_Loops_1-run-Debug-e7cefdf4688da76e7cb6.json",
+					"name" : "global-Week_4-For_Loops_1-run",
+					"projectIndex" : 35
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "global-Week_4-For_Loops_2-run::@201107e427793d346249",
+					"jsonFile" : "target-global-Week_4-For_Loops_2-run-Debug-6a7138a63c06fa456327.json",
+					"name" : "global-Week_4-For_Loops_2-run",
+					"projectIndex" : 36
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "global-Week_4-Infinite_Loops-run::@45ce854975d6ef8d4a46",
+					"jsonFile" : "target-global-Week_4-Infinite_Loops-run-Debug-b33ab7c8ee85c14aef50.json",
+					"name" : "global-Week_4-Infinite_Loops-run",
+					"projectIndex" : 37
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "global-Week_4-Nested_Loops-run::@78b5a893b5846814e476",
+					"jsonFile" : "target-global-Week_4-Nested_Loops-run-Debug-e89612f27753dde0736b.json",
+					"name" : "global-Week_4-Nested_Loops-run",
+					"projectIndex" : 38
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "global-Week_4-While_Loops_1-run::@065d986c74b3ef508eb6",
+					"jsonFile" : "target-global-Week_4-While_Loops_1-run-Debug-803af5a9637593a871ea.json",
+					"name" : "global-Week_4-While_Loops_1-run",
+					"projectIndex" : 39
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "global-Week_4-While_Loops_2-run::@ef3217293788e6a28d85",
+					"jsonFile" : "target-global-Week_4-While_Loops_2-run-Debug-196e02d78cebf65562b1.json",
+					"name" : "global-Week_4-While_Loops_2-run",
+					"projectIndex" : 40
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "global-Week_4_Break_Statements-run::@52c552d4c6072bd00b24",
+					"jsonFile" : "target-global-Week_4_Break_Statements-run-Debug-138bf21d63f42e73cc5d.json",
+					"name" : "global-Week_4_Break_Statements-run",
+					"projectIndex" : 31
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "global-Week_4_Continue_Statements-run::@8434357c7e11b0cb665e",
+					"jsonFile" : "target-global-Week_4_Continue_Statements-run-Debug-44a9bdca62b262e06ef0.json",
+					"name" : "global-Week_4_Continue_Statements-run",
+					"projectIndex" : 32
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "global-Week_5-1D_Arrays_1-run::@51607e99b90fc6ca3cc1",
+					"jsonFile" : "target-global-Week_5-1D_Arrays_1-run-Debug-6049e272accca21a26c6.json",
+					"name" : "global-Week_5-1D_Arrays_1-run",
+					"projectIndex" : 41
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "global-Week_5-1D_Arrays_2-run::@173740f560dec58aebd7",
+					"jsonFile" : "target-global-Week_5-1D_Arrays_2-run-Debug-6ec2f62fb678a99c6bef.json",
+					"name" : "global-Week_5-1D_Arrays_2-run",
+					"projectIndex" : 42
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "global-Week_5-1D_Arrays_3-run::@7afb004f6a1a0389751a",
+					"jsonFile" : "target-global-Week_5-1D_Arrays_3-run-Debug-e40e4161cf775f52911b.json",
+					"name" : "global-Week_5-1D_Arrays_3-run",
+					"projectIndex" : 43
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "global-Week_5-2D_Arrays_1-run::@d325b6462b176638e8a1",
+					"jsonFile" : "target-global-Week_5-2D_Arrays_1-run-Debug-876bba0c0cde14e13bc4.json",
+					"name" : "global-Week_5-2D_Arrays_1-run",
+					"projectIndex" : 44
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "global-Week_5-2D_Arrays_2-run::@2ee4ddbdbc0d3a85819d",
+					"jsonFile" : "target-global-Week_5-2D_Arrays_2-run-Debug-d4348240688e73298ecd.json",
+					"name" : "global-Week_5-2D_Arrays_2-run",
+					"projectIndex" : 45
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "global-Week_5-2D_Arrays_3-run::@f80ab5ec51e1b5211857",
+					"jsonFile" : "target-global-Week_5-2D_Arrays_3-run-Debug-55c48da9fe86350ab476.json",
+					"name" : "global-Week_5-2D_Arrays_3-run",
+					"projectIndex" : 46
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "global-Week_5-Random_Function-run::@4b65087c2d1bf77eca21",
+					"jsonFile" : "target-global-Week_5-Random_Function-run-Debug-50db235e076e8e3bf23e.json",
+					"name" : "global-Week_5-Random_Function-run",
+					"projectIndex" : 47
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "global-Week_6-String_Arrays-run::@eead8d12d517a87b7923",
+					"jsonFile" : "target-global-Week_6-String_Arrays-run-Debug-33f563ad0abd1b4ee237.json",
+					"name" : "global-Week_6-String_Arrays-run",
+					"projectIndex" : 48
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "global-Week_6-String_Functions_1-run::@76056e81fb7085ca5467",
+					"jsonFile" : "target-global-Week_6-String_Functions_1-run-Debug-1fb53304290dcaa9dfe2.json",
+					"name" : "global-Week_6-String_Functions_1-run",
+					"projectIndex" : 49
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "global-Week_6-String_Functions_2-run::@91ddfc1f324220b6be34",
+					"jsonFile" : "target-global-Week_6-String_Functions_2-run-Debug-5508107bf4566331c603.json",
+					"name" : "global-Week_6-String_Functions_2-run",
+					"projectIndex" : 50
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "global-Week_6-String_Functions_3-run::@6a7d67660b24c9141b74",
+					"jsonFile" : "target-global-Week_6-String_Functions_3-run-Debug-718755976a55f6d7734f.json",
+					"name" : "global-Week_6-String_Functions_3-run",
+					"projectIndex" : 52
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "global-Week_6-String_Functions_4-run::@24d4418de4fef89d5847",
+					"jsonFile" : "target-global-Week_6-String_Functions_4-run-Debug-e6351adfbb38a44732ca.json",
+					"name" : "global-Week_6-String_Functions_4-run",
+					"projectIndex" : 51
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "global-Week_6-String_Input_1-run::@21fc1f79fd7d9f18f0a8",
+					"jsonFile" : "target-global-Week_6-String_Input_1-run-Debug-b33de8170f10587af6b9.json",
+					"name" : "global-Week_6-String_Input_1-run",
+					"projectIndex" : 53
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "global-Week_6-String_Input_2-run::@1edefe55ddd1d255d588",
+					"jsonFile" : "target-global-Week_6-String_Input_2-run-Debug-3758b63c61c084eac83a.json",
+					"name" : "global-Week_6-String_Input_2-run",
+					"projectIndex" : 54
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "global-Week_6-String_Input_3-run::@ee740ae77405d9ec4e00",
+					"jsonFile" : "target-global-Week_6-String_Input_3-run-Debug-75ce64b09a0884700353.json",
+					"name" : "global-Week_6-String_Input_3-run",
+					"projectIndex" : 55
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "global-Week_6-Strings_1-run::@f0d7452afa27d4864ac9",
+					"jsonFile" : "target-global-Week_6-Strings_1-run-Debug-be9b3e8637373426d04b.json",
+					"name" : "global-Week_6-Strings_1-run",
+					"projectIndex" : 56
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "global-Week_6-Strings_2-run::@385fa19887bd2538bf63",
+					"jsonFile" : "target-global-Week_6-Strings_2-run-Debug-4649b52f5141b6109e02.json",
+					"name" : "global-Week_6-Strings_2-run",
+					"projectIndex" : 57
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "global-Week_6-Strings_3-run::@c76c6eb532581c767529",
+					"jsonFile" : "target-global-Week_6-Strings_3-run-Debug-c36fe6e18c71cb631060.json",
+					"name" : "global-Week_6-Strings_3-run",
+					"projectIndex" : 58
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug",
+		"source" : "C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

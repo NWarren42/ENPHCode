@@ -1,0 +1,9 @@
+Current debt: 11035.19
+Current debt: 9983.55
+Current debt: 8837.26
+Current debt: 7587.80
+Current debt: 6225.89
+Current debt: 4741.41
+Current debt: 3123.33
+Current debt: 1359.62
+Debt repayed!

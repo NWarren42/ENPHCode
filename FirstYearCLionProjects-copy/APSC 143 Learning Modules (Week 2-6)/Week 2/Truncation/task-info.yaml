@@ -1,0 +1,74 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Value of z is 2.71
+    Congratulations on completing the week 2 module!
+    You should be all set for Assignment 2.
+    Your password for the onQ completion quiz is "Longing".
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Truncation)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp src/password2.h src/password2.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/password2.cpp
+  visible: false
+  text: |
+    #include "password2.h"
+    #include <stdio.h>
+
+    void completion(float x) {
+        if (x >= 2.7 && x <= 2.72){
+            printf("Congratulations on completing the week 2 module!\n");
+            printf("You should be all set for Assignment 2.\n");
+            printf("Your password for the onQ completion quiz is \"Longing\".\n");
+        }
+    }
+  learner_created: false
+- name: src/password2.h
+  visible: false
+  text: |
+    //
+    // Created by bajd on 5/30/2022.
+    //
+
+    #ifndef APSC_143_LEARNING_MODULE_PASSWORD2_H
+    #define APSC_143_LEARNING_MODULE_PASSWORD2_H
+
+    void completion(float x);
+
+    #endif //APSC_143_LEARNING_MODULE_PASSWORD2_H
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  text: |-
+    #include "password2.h" //  Do not change this
+    #include <stdio.h>
+
+    int main() {
+        int x, y;
+        x = 15;
+        y = 7;
+        float z = (x + 4) / y;
+        printf("Value of z is %.2f\n", z);
+        completion(z); // Do not change this
+        return 0;
+    }
+  learner_created: false
+status: Unchecked
+record: -1

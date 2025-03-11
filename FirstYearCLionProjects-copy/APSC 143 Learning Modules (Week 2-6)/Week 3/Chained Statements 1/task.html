@@ -1,0 +1,51 @@
+<html>
+
+<h2>Chained If-Else Statements</h2>
+
+<p>We can check for multiple conditions individually using a <strong>
+chained if-else block</strong>. Each statement of the block is treated
+as its own if statement and run if true; however, only the code contained
+in the <strong>first</strong> true statement will run. The rest of the 
+statements will be skipped. Let's code one for ourselves to see how it
+works!</p>
+
+<p>The example code uses a basic if-else block that you will add statements
+to. Between the if and the else blocks, write an <strong>else if</strong>
+statement with the condition that the <strong>difference</strong> between x
+and y is <strong>5 or less</strong>. Remember that y must be at least as large
+as x if this condition is being checked! Inside this block, output the following
+statement:</p>
+
+<p><strong>y is a little larger than x.</strong></p>
+
+<p>Then, add another <strong>else if</strong> statement <strong>after</strong>
+the one you just wrote. This one has the condition that the difference between
+x and y is <strong>50 or less</strong>. Inside this block, output the following
+statement:</p>
+
+<p><strong>y is significantly larger than x.</strong></p>
+
+<p>If you get stuck, check the hints below. Do you know which printf function
+will execute?</p>
+
+<div class="hint">
+  else if(difference <= 5) { output 1 }
+</div>
+
+<div class="hint">
+  else if(difference <= 50) { output 2 }
+</div>
+
+<p>Consider the <strong>order</strong> in which we wrote the else if conditions.
+Since the third condition <strong>contains</strong> the second (ie. any number
+that is less than 6 is also less than 51), we have to check for the <strong>more
+specific</strong> condition first. Otherwise, the larger condition would evaluate
+true <strong>before</strong> the smaller condition could even be checked! Try
+reordering the conditions to see for yourself.</p>
+    
+<p>Feel free to check different values for x and y, and keep in mind
+that we can have any number of statements in the chain. Also, the else at the
+end is optional and used when you want a catch-all for any conditions that
+fail everything else.</p>
+
+</html>

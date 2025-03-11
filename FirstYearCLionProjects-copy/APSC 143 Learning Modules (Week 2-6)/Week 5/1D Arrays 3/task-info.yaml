@@ -1,0 +1,71 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Sum of all elements = 25.60
+    Minimum value = 1.05
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_5-1D_Arrays_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 109
+    length: 52
+    placeholder_text: /* declare & initialize variables for sum and min */
+    initial_state:
+      length: 52
+      offset: 109
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      float min = vals[0];
+          float sum = 0;
+  - offset: 166
+    length: 24
+    placeholder_text: /* indexing loop here */
+    initial_state:
+      length: 24
+      offset: 166
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      for(int i = 0; i < SIZE; i++) {
+              sum += vals[i];
+              if(min > vals[i])
+                  min = vals[i];
+          }
+  text: |-
+    #include <stdio.h>
+
+    #define SIZE 6
+
+    int main() {
+        float vals[SIZE] = {7.8, 4.22, 6, 1.05, 3.9, 2.63};
+        /* declare & initialize variables for sum and min */
+        /* indexing loop here */
+        printf("Sum of all elements = %.2f\n", sum);
+        printf("Minimum value = %.2f\n", min);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

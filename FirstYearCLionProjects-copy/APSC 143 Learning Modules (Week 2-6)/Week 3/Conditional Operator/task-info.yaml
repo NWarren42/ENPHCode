@@ -1,0 +1,52 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Enter an integer:
+    x is odd
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_3-Conditional_Operator)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 104
+    length: 40
+    placeholder_text: /* conditional operator print command */
+    initial_state:
+      length: 40
+      offset: 104
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '(x % 2 == 0) ? printf("x is even\n") : printf("x is
+      odd\n");'
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        int x;
+        printf("Enter an integer:\n");
+        scanf("%d", &x);
+        /* conditional operator print command */
+    }
+  learner_created: false
+status: Unchecked
+record: -1

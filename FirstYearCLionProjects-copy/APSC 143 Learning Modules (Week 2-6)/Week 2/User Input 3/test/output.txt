@@ -1,0 +1,1 @@
+Enter building height and number of floors: This building is 312.80m tall and has 26 floors.

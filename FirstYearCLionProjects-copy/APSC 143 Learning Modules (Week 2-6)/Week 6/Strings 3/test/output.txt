@@ -1,0 +1,7 @@
+Enter letter index & new letter:
+Enter letter index & new letter:
+Enter letter index & new letter:
+Enter letter index & new letter:
+Enter letter index & new letter:
+Enter letter index & new letter:
+Final word = "ridden"

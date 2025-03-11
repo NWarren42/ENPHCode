@@ -1,0 +1,48 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    "Back to the Future" is a great movie.
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Output_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 37
+    length: 27
+    placeholder_text: /* printf statement here */
+    initial_state:
+      length: 27
+      offset: 37
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: printf("\"Back to the Future\" is a great movie.\n");
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        /* printf statement here */
+        return 0;
+    }
+  learner_created: false
+status: Unchecked
+record: -1

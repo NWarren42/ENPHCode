@@ -1,0 +1,53 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Loop ran 15 times.
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_4-For_Loops_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 75
+    length: 19
+    placeholder_text: /* for loop here */
+    initial_state:
+      length: 19
+      offset: 75
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      for(count; total < 100; count++) {
+              total += count;
+          }
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        int total = 0;
+        int count = 0;
+        /* for loop here */
+        printf("Loop ran %d times.\n", count);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

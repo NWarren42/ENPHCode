@@ -1,0 +1,93 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    New letter: 'D'
+    Congratulations on completing the week 3 module!
+    You should be all set for Assignment 3.
+    Your password for the onQ completion quiz is "Rusted".
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_3-Nested_Structures)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp src/password3.cpp src/password3.h)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 124
+    length: 32
+    placeholder_text: /* nested selection structure */
+    initial_state:
+      length: 32
+      offset: 124
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      if(move > 0 && move <= 25) {
+              letter += move;
+              if(letter > 'Z') {
+                  letter -= 26;
+              }
+          }
+  text: |-
+    #include <stdio.h>
+    #include "password3.h" // Do not change this
+
+    int main() {
+        int move = 22;
+        char letter = 'H';
+        /* nested selection structure */
+        printf("New letter: \'%c\'\n", letter);
+        completion(letter); // Do not change this
+        return 0;
+    }
+  learner_created: false
+- name: src/password3.cpp
+  visible: false
+  text: |-
+    //
+    // Created by bajd on 5/30/2022.
+    //
+    #include <stdio.h>
+    #include "password3.h"
+
+    void completion(char c) {
+        if (c == 'D'){
+            printf("Congratulations on completing the week 3 module!\n");
+            printf("You should be all set for Assignment 3.\n");
+            printf("Your password for the onQ completion quiz is \"Rusted\".\n");
+        }
+    }
+  learner_created: false
+- name: src/password3.h
+  visible: false
+  text: |
+    //
+    // Created by bajd on 5/30/2022.
+    //
+
+    #ifndef APSC_143_LEARNING_MODULE_PASSWORD3_H
+    #define APSC_143_LEARNING_MODULE_PASSWORD3_H
+
+    void completion (char c);
+
+    #endif //APSC_143_LEARNING_MODULE_PASSWORD3_H
+  learner_created: false
+status: Unchecked
+record: -1

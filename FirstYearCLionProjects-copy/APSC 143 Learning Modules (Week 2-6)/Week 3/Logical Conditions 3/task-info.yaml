@@ -1,0 +1,52 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    z = 0
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_3-Logical_Conditions_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 81
+    length: 28
+    placeholder_text: /* full set of conditions */
+    initial_state:
+      length: 28
+      offset: 81
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: x * 2 < y && x >= 0 && y >= 0
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        int x, y, z;
+        x = -2;
+        y = 5;
+        z = /* full set of conditions */;
+        printf("z = %d\n", z);
+        return 0;
+    }
+  learner_created: false
+status: Unchecked
+record: -1

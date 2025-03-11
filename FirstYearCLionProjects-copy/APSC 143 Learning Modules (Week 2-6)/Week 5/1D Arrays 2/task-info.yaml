@@ -1,0 +1,67 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Enter float values:
+    3.68 77.10 84.90 2.00 15.41
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_5-1D_Arrays_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 92
+    length: 28
+    placeholder_text: /* Declare the nums array */
+    initial_state:
+      length: 28
+      offset: 92
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: float nums[LENGTH];
+  - offset: 125
+    length: 26
+    placeholder_text: /* element storing loop */
+    initial_state:
+      length: 26
+      offset: 125
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      for(int i = 0; i < LENGTH; i++)
+              scanf("%f", &nums[i]);
+  text: |-
+    #include <stdio.h>
+
+    #define LENGTH 5
+
+    int main() {
+        printf("Enter float values:\n");
+        /* Declare the nums array */
+        /* element storing loop */
+        for(int i = 0; i < LENGTH; i++)
+            printf("%.2f\t", nums[i]);
+        printf("\n");
+    }
+  learner_created: false
+status: Unchecked
+record: -1

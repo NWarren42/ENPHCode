@@ -1,0 +1,2 @@
+The cube of x is 199.18
+The sine of x is -0.43

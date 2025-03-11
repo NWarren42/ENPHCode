@@ -1,0 +1,52 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    The average of 14, 6, and 30 is 16.67
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Expressions_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 105
+    length: 30
+    placeholder_text: /* average calculation here */
+    initial_state:
+      length: 30
+      offset: 105
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: (a + b + c) / 3.0
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        int a, b, c;
+        a = 14;
+        b = 6;
+        c = 30;
+        float average = /* average calculation here */;
+        printf("The average of %d, %d, and %d is %.2f\n", a, b, c, average);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

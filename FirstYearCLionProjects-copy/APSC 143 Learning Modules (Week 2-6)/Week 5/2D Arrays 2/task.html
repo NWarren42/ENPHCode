@@ -1,0 +1,60 @@
+<html>
+
+<h2>2-Dimensional Arrays</h2>
+
+<p>2-dimensional arrays can also be initialized element-by-element using a nested loop,
+where each loop counter references either the row or column position in the array. This
+task will explore this idea.</p>
+
+<p>The starter code has defined a 2D array called <strong>timesTable</strong> of size
+12x12, which will hold a multiplication table from 1 to 12.
+Complete the nested loop code to initialize all elements in the array, so that they
+follow the following format:</p>
+
+<table width="200px">
+    <tr>
+        <td width="50">1</td>
+        <td width="50">2</td>
+        <td width="50">3</td>
+        <td width="50">4</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>4</td>
+        <td>6</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>8</td>
+        <td>12</td>
+        <td>16</td>
+    </tr>
+</table>
+
+<p>Keep in mind that your loop counter variables will be named <strong>row</strong> and
+<strong>col</strong>; you will need to determine which should be in which loop. Also, remember
+that the array indexes start at <strong>0</strong>, but our multiplications should start at
+<strong>1</strong>. The hints below will answer these problems.</p>
+
+<p>Note how the nested loop is written for both initialization and output!
+We also see the advantage of using <strong>#define</strong> here: the size of our table
+can easily be modified with one small change. Try experimenting with resizing the array and different expressions for assigning
+each element!</p>
+
+<div class="hint">
+  Your outer loop should iterate through rows; that way, you can print each element
+    that belongs on the same line as you go.
+</div>
+
+<div class="hint">
+  If both your loops iterate from 0 to 11, the current element should store (row+1) * (col+1).
+</div>
+
+</html>

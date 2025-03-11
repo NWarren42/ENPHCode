@@ -1,0 +1,21 @@
+<html>
+
+<h2>String Input</h2>
+
+<p>The final method for string input, the <strong>fgets</strong> function, is the
+most versatile and allows us to read entire sentences at once.</p>
+
+<p>As seen from this example code, fgets has 3 arguments: the string we are reading
+into, the maximum number of characters it can read (<strong>including</strong> the
+null character), and what source the input comes from. For all user input, this last
+argument will always be <strong>stdin</strong>.</p>
+
+<p>Let's test its limitations. Try entering a single word, a short sentence, and a
+<strong>very large</strong> sentence. You can see that the very large sentence will
+cut off after 34 characters, with the null character at the end.</p>
+
+<p>In general, you should use <strong>scanf</strong> when you want to read a single
+word of a given length, and use <strong>fgets</strong> when you want to read an
+entire sentence.</p>
+
+</html>

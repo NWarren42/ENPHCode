@@ -1,0 +1,66 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Word = "irrevocably"
+    Average letter = 'k'
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_6-String_Functions_1)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 19
+    length: 32
+    placeholder_text: /* Include the string library */
+    initial_state:
+      length: 32
+      offset: 19
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '#include <string.h>'
+  - offset: 124
+    length: 31
+    placeholder_text: /* Determine average of word */
+    initial_state:
+      length: 31
+      offset: 124
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      for(int i = 0; i < strlen(word); i++)
+              average += word[i];
+          average /= strlen(word);
+  text: |-
+    #include <stdio.h>
+    /* Include the string library */
+
+    int main() {
+        char word[] = "irrevocably";
+        int average = 0;
+        /* Determine average of word */
+        printf("Word = \"%s\"\n", word);
+        printf("Average letter = '%c'\n", average);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

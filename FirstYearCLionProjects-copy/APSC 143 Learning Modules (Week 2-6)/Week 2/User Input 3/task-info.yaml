@@ -1,0 +1,61 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Enter building height and number of floors: This building is 312.80m tall and has 26 floors.
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-User_Input_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 44
+    length: 33
+    placeholder_text: /* printf arguments for prompt */
+    initial_state:
+      length: 33
+      offset: 44
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '"Enter building height and number of floors: "'
+  - offset: 118
+    length: 37
+    placeholder_text: /* scan the values from user input */
+    initial_state:
+      length: 37
+      offset: 118
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: scanf("%f %d", &height, &floors);
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        printf(/* printf arguments for prompt */);
+        float height;
+        int floors;
+        /* scan the values from user input */
+        printf("This building is %.2fm tall and has %d floors.\n", height, floors);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

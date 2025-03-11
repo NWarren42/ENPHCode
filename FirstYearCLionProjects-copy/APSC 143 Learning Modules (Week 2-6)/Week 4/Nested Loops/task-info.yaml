@@ -1,0 +1,122 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Enter a positive integer:
+    Factors of 14:
+    1 2 7 14
+    Factors of 13:
+    1 13
+    Factors of 12:
+    1 2 3 4 6 12
+    Factors of 11:
+    1 11
+    Factors of 10:
+    1 2 5 10
+    Factors of 9:
+    1 3 9
+    Factors of 8:
+    1 2 4 8
+    Factors of 7:
+    1 7
+    Factors of 6:
+    1 2 3 6
+    Factors of 5:
+    1 5
+    Factors of 4:
+    1 2 4
+    Factors of 3:
+    1 3
+    Factors of 2:
+    1 2
+    Factors of 1:
+    1
+    Congratulations on completing the week 4 module!
+    You should be all set for Assignment 4.
+    Your password for the onQ completion quiz is "Seventeen".
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_4-Nested_Loops)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp src/password4.h src/password4.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/password4.h
+  visible: true
+  text: |
+    //
+    // Created by bajd on 5/30/2022.
+    //
+
+    #ifndef APSC_143_LEARNING_MODULE_PASSWORD4_H
+    #define APSC_143_LEARNING_MODULE_PASSWORD4_H
+
+    void completion (int i, int upTo);
+
+    #endif //APSC_143_LEARNING_MODULE_PASSWORD4_H
+  learner_created: false
+- name: src/password4.cpp
+  visible: true
+  text: |-
+    //
+    // Created by bajd on 5/30/2022.
+    //
+    #include "password4.h"
+    #include <stdio.h>
+
+    void completion (int i, int upTo){
+        if(upTo % i == 0){
+            printf("Congratulations on completing the week 4 module!\n");
+            printf("You should be all set for Assignment 4.\n");
+            printf("Your password for the onQ completion quiz is \"Seventeen\".\n");
+        }
+    }
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 166
+    length: 22
+    placeholder_text: /* nested loop here */
+    initial_state:
+      length: 22
+      offset: 166
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      for(upTo; upTo >= 1; upTo--) {
+              printf("Factors of %d:\n", upTo);
+              for(i = 1; i <= upTo; i++) {
+                  if(upTo % i == 0)
+                      printf("%d ", i);
+              }
+              printf("\n");
+          }
+  text: |-
+    #include "password4.h" // Do not change this
+    #include <stdio.h>
+
+    int main() {
+        int upTo, i;
+        printf("Enter a positive integer:\n");
+        scanf("%d", &upTo);
+        /* nested loop here */
+        completion(i, upTo);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

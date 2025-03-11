@@ -1,0 +1,41 @@
+<html>
+
+<h2>Do-While Loops</h2>
+
+<h3>Comparison to While Loops</h3>
+
+<p>This task will investigate an example of an edge case which sets these
+two loops apart: when the exit condition for both loops trigger immediately.
+</p>
+
+<p>You will have to write both a while loop and a do-while loop for this task,
+which will both have identical operations.
+The provided code has an integer <strong>x</strong> and 2 counting variables:
+<strong>whileCount</strong> for the while loop, and <strong>doCount</strong>
+for the do-while loop. Both loops will have the following properties:</p>
+
+<ul>Inside the loop, <strong>increment</strong> the counting variable. Then,
+<strong>update</strong> the value of x to be <strong>half its current
+value</strong>.</ul>
+
+<ul>The loop should run if x is an even value.</ul>
+
+<p>If you need help putting the loops together, see the hints below. When you
+run the code, the following output should occur:</p>
+
+<p><strong>While loop ran 0 times.</strong></p>
+<p><strong>Do-while loop ran 2 times.</strong></p>
+
+<p>Does this output make sense? You are encouraged to experiment and see why
+the difference between the two loops is so significant here. Can you think of
+another example where a do-while loop would be preferable?</p>
+
+<div class="hint">
+  while (x is even) { increment whileCount; x /= 2; }
+</div>
+
+<div class="hint">
+  do { increment doCount; x /= 2; } while (x is even);
+</div>
+
+</html>

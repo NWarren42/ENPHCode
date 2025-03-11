@@ -1,0 +1,120 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Your sentence:
+    a green lobster will dig the lecture
+    Congratulations on completing the week 6 module!
+    You should be all set for Assignment 6.
+    Your password for the onQ completion quiz is "Furnace".
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_6-String_Functions_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/password6.cpp
+            src/password6.h
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/password6.cpp
+  visible: false
+  text: |-
+    //
+    // Created by bajd on 6/10/2022.
+    //
+    #include <stdio.h>
+    #include <string.h>
+
+    int completion(char phrase[]) {
+        if(!strcmp(phrase, "a green lobster will dig the lecture ")){
+            printf("Congratulations on completing the week 6 module!\n");
+            printf("You should be all set for Assignment 6.\n");
+            printf("Your password for the onQ completion quiz is \"Furnace\".\n");
+            return 1;
+        }
+        return 0;
+    }
+  learner_created: false
+- name: src/password6.h
+  visible: false
+  text: |
+    //
+    // Created by bajd on 6/10/2022.
+    //
+
+    #ifndef APSC_143_LEARNING_MODULE_PASSWORD6_H
+    #define APSC_143_LEARNING_MODULE_PASSWORD6_H
+
+    int completion(char phrase[]);
+
+    #endif //APSC_143_LEARNING_MODULE_PASSWORD6_H
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 42
+    length: 32
+    placeholder_text: /* Include the string library */
+    initial_state:
+      length: 32
+      offset: 42
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '#include <string.h>'
+  - offset: 607
+    length: 48
+    placeholder_text: /* Get the index & add the corresponding word */
+    initial_state:
+      length: 48
+      offset: 607
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |2-
+       scanf("%d", &index);
+              if(index < 0 || index >= 12)
+                  break;
+              strcat(sentence, options[index]);
+  text: |-
+    #include "password6.h"
+    #include <stdio.h>
+    /* Include the string library */
+
+    int main() {
+        char options[12][10] = {"the ",
+                                "saw ",
+                                "green ",
+                                "a ",
+                                "student ",
+                                "will ",
+                                "sparrow ",
+                                "be ",
+                                "bring ",
+                                "lobster ",
+                                "lecture ",
+                                "dig "};
+        char sentence[1000] = "";
+        int index;
+        while(1) {
+           /* Get the index & add the corresponding word */
+        }
+        printf("Your sentence:\n%s\n", sentence);
+        completion(sentence);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

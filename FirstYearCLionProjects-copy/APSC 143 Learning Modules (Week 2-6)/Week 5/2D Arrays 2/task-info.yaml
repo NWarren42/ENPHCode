@@ -1,0 +1,87 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    1       2       3       4       5       6       7       8       9       10      11      12
+    2       4       6       8       10      12      14      16      18      20      22      24
+    3       6       9       12      15      18      21      24      27      30      33      36
+    4       8       12      16      20      24      28      32      36      40      44      48
+    5       10      15      20      25      30      35      40      45      50      55      60
+    6       12      18      24      30      36      42      48      54      60      66      72
+    7       14      21      28      35      42      49      56      63      70      77      84
+    8       16      24      32      40      48      56      64      72      80      88      96
+    9       18      27      36      45      54      63      72      81      90      99      108
+    10      20      30      40      50      60      70      80      90      100     110     120
+    11      22      33      44      55      66      77      88      99      110     121     132
+    12      24      36      48      60      72      84      96      108     120     132     144
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_5-2D_Arrays_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 90
+    length: 26
+    placeholder_text: /* outer loop arguments */
+    initial_state:
+      length: 26
+      offset: 90
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: int row = 0; row < SIZE; row++
+  - offset: 132
+    length: 26
+    placeholder_text: /* inner loop arguments */
+    initial_state:
+      length: 26
+      offset: 132
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: int col = 0; col < SIZE; col++
+  - offset: 197
+    length: 25
+    placeholder_text: /* Multiplication here */
+    initial_state:
+      length: 25
+      offset: 197
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: (col+1) * (row+1)
+  text: |-
+    #include <stdio.h>
+
+    #define SIZE 12
+
+    int main() {
+        int timesTable[SIZE][SIZE];
+        for(/* outer loop arguments */) {
+            for(/* inner loop arguments */) {
+                timesTable[row][col] = /* Multiplication here */;
+                printf("%d\t", timesTable[row][col]);
+            }
+            printf("\n");
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

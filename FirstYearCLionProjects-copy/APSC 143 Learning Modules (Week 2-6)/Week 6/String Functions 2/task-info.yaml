@@ -1,0 +1,87 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Enter swap indexes:
+    Enter swap indexes:
+    Enter swap indexes:
+    Final List Order:
+    Bill
+    Charlie
+    Julia
+    Maurice
+    Sandra
+    Yvette
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_6-String_Functions_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 19
+    length: 31
+    placeholder_text: /* Include the string library*/
+    initial_state:
+      length: 31
+      offset: 19
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '#include <string.h>'
+  - offset: 467
+    length: 39
+    placeholder_text: /* Swap the names at indexes x and y */
+    initial_state:
+      length: 39
+      offset: 467
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      strcpy(temp, list[x]);
+              strcpy(list[x], list[y]);
+              strcpy(list[y], temp);
+  text: |-
+    #include <stdio.h>
+    /* Include the string library*/
+
+    int main() {
+        char list[6][8] = {"Charlie",
+                           "Bill",
+                           "Sandra",
+                           "Maurice",
+                           "Julia",
+                           "Yvette"};
+        char temp[8];
+        int x, y;
+        while(1) {
+            printf("Enter swap indexes:\n");
+            scanf("%d %d", &x, &y);
+            if(x == y || x >= 6 || x < 0 || y >= 6 || y < 0)
+                break;
+            /* Swap the names at indexes x and y */
+        }
+        printf("Final List Order:\n");
+        for(int i = 0; i < 6; i++)
+            printf("%s\n", list[i]);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

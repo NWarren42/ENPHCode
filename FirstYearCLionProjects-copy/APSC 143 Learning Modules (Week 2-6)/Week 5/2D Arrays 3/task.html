@@ -1,0 +1,57 @@
+<html>
+
+<h2>2-Dimensional Arrays</h2>
+
+<h3>Copying Arrays</h3>
+
+<p>If we want to add additional elements to a full array, the only way to do so
+is to create a new, larger array and copy all of the elements over. This task
+will go over the two ways to perform this.</p>
+
+<p>The original array, <strong>wave1</strong>, holds time values in its first row
+and positions of the sine wave in its second row (based on the first row times).
+All contents of wave1 have been copied into <strong>wave2</strong> using a for
+loop, which also has a third row containing the cosine wave along the same domain.
+</p>
+
+<p>For this task, create a third array called <strong>wave3</strong> that will
+store all the data from wave2 - copy this using <strong>memcpy</strong>. This array
+will also have a fourth row, to hold the tangent wave along the same domain. When
+completed, your output will look like this:</p>
+
+<table width="70%">
+    <tr>
+        <td>x</td>
+        <td>sin</td>
+        <td>cos</td>
+        <td>tan</td>
+    </tr>
+    <tr>
+        <td>0.000</td>
+        <td>0.000</td>
+        <td>1.000</td>
+        <td>0.000</td>
+    </tr>
+    <tr>
+        <td>1.047</td>
+        <td>0.866</td>
+        <td>0.500</td>
+        <td>1.732</td>
+    </tr>
+</table>
+
+<p>Take note on how the <strong>sizeof</strong> function is used; the memory of one
+row is divided by the memory of one element to find the elements in a row.</p>
+
+<p>Copying arrays is a useful tool; choose whichever method you prefer, and
+master it! (But remember that memcpy can only be used when adding extra <strong>
+rows</strong>)</p>
+
+<div class="hint">
+  memcpy(bigger array, smaller array, size of smaller array);
+</div>
+
+<p>Once you complete this task, the console will print a password for you to use to
+    access the <strong>"Week 5 Learning Module Completion Quiz"</strong> on OnQ.</p>
+
+</html>

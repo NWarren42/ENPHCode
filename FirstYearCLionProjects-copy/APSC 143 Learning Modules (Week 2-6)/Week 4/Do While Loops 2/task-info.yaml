@@ -1,0 +1,76 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    While loop ran 0 times.
+    Do-while loop ran 2 times.
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_4-Do_While_Loops_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 98
+    length: 21
+    placeholder_text: /* while loop here */
+    initial_state:
+      length: 21
+      offset: 98
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |2-
+       while(x % 2 == 0) {
+              whileCount++;
+              x /= 2;
+          }
+  - offset: 137
+    length: 24
+    placeholder_text: /* do-while loop here */
+    initial_state:
+      length: 24
+      offset: 137
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      do {
+              doCount++;
+              x /= 2;
+          } while(x % 2 == 0);
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        int x = 77;
+        int whileCount = 0;
+        int doCount = 0;
+
+       /* while loop here */
+
+        x = 77;
+        /* do-while loop here */
+
+        printf("While loop ran %d times.\n", whileCount);
+        printf("Do-while loop ran %d times.\n", doCount);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

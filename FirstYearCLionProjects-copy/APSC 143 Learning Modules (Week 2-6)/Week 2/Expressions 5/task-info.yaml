@@ -1,0 +1,56 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Enter two numbers:
+    New x value = 8.667
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Expressions_5)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 133
+    length: 47
+    placeholder_text: /* expression(s) using assignment shorthands */
+    initial_state:
+      length: 47
+      offset: 133
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      x /= y + z;
+          x += y;
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        float x, y, z;
+        x = 15;
+        printf("Enter two numbers:\n");
+        scanf("%f %f", &y, &z);
+
+        /* expression(s) using assignment shorthands */
+        printf("New x value = %.3f\n", x);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

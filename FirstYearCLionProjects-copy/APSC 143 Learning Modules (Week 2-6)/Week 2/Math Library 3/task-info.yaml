@@ -1,0 +1,50 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Circumference = 20.106
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Math_Library_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 101
+    length: 16
+    placeholder_text: /* 2 * pi * r */
+    initial_state:
+      length: 16
+      offset: 101
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 2 * M_PI * radius
+  text: |-
+    #include <stdio.h>
+    #include <math.h>
+
+    int main() {
+        float radius = 3.2;
+        float circumference = /* 2 * pi * r */;
+        printf("Circumference = %.3f\n", circumference);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

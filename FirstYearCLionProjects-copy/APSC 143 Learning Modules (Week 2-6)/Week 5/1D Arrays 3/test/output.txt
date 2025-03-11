@@ -1,0 +1,2 @@
+Sum of all elements = 25.60
+Minimum value = 1.05

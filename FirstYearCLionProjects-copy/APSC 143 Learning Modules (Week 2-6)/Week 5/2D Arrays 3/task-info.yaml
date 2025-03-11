@@ -1,0 +1,151 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    x       sin     cos     tan
+    0.000   0.000   1.000   0.000
+    1.047   0.866   0.500   1.732
+    2.094   0.866   -0.500  -1.732
+    3.142   -0.000  -1.000  0.000
+    4.189   -0.866  -0.500  1.732
+    5.236   -0.866  0.500   -1.732
+    6.283   0.000   1.000   0.000
+    7.330   0.866   0.500   1.732
+    8.378   0.866   -0.500  -1.732
+    9.425   -0.000  -1.000  0.000
+    10.472  -0.866  -0.500  1.732
+    11.519  -0.866  0.500   -1.732
+    12.566  0.000   1.000   0.000
+    13.614  0.866   0.500   1.732
+    14.661  0.866   -0.500  -1.732
+    Congratulations on completing the week 5 module!
+    You should be all set for Assignment 5.
+    Your password for the onQ completion quiz is "Daybreak".
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_5-2D_Arrays_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp src/password5.h src/password5.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/password5.h
+  visible: false
+  text: |
+    //
+    // Created by bajd on 6/10/2022.
+    //
+
+    #ifndef APSC_143_LEARNING_MODULE_PASSWORD5_H
+    #define APSC_143_LEARNING_MODULE_PASSWORD5_H
+
+    void completion(float x);
+
+    #endif //APSC_143_LEARNING_MODULE_PASSWORD5_H
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 60
+    length: 32
+    placeholder_text: /* Include the string library */
+    initial_state:
+      length: 32
+      offset: 60
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '#include <string.h>'
+  - offset: 500
+    length: 25
+    placeholder_text: /* Declare wave3 array */
+    initial_state:
+      length: 25
+      offset: 500
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: float wave3[4][rowsize];
+  - offset: 564
+    length: 29
+    placeholder_text: /* Copy wave2 using memcpy */
+    initial_state:
+      length: 29
+      offset: 564
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: memcpy(wave3, wave2, sizeof(wave2));
+  - offset: 641
+    length: 41
+    placeholder_text: /* Initialize tan values in fourth row */
+    initial_state:
+      length: 41
+      offset: 641
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: wave3[3][i] = tan(wave3[0][i]);
+  text: |-
+    #include "password5.h"
+    #include <stdio.h>
+    #include <math.h>
+    /* Include the string library */
+
+    int main() {
+        float wave1[2][15];
+        int rowsize = sizeof(wave1[0]) / sizeof(wave1[0][0]);
+        for(int i = 0; i < rowsize; i++) {
+            wave1[0][i] = M_PI / 3 * i;
+            wave1[1][i] = sin(wave1[0][i]);
+        }
+
+        float wave2[3][rowsize];
+        for(int i = 0; i < rowsize; i++) {
+            wave2[0][i] = wave1[0][i];
+            wave2[1][i] = wave1[1][i];
+            wave2[2][i] = cos(wave2[0][i]);
+        }
+
+        /* Declare wave3 array */
+        printf("x\tsin\tcos\ttan\n");
+        /* Copy wave2 using memcpy */
+        for(int i = 0; i < rowsize; i++) {
+            /* Initialize tan values in fourth row */
+            printf("%.3f\t%.3f\t%.3f\t%.3f\n", wave3[0][i], wave3[1][i], wave3[2][i], wave3[3][i]);
+        }
+        completion(wave3[0][rowsize-3]);
+    }
+  learner_created: false
+- name: src/password5.cpp
+  visible: false
+  text: |-
+    //
+    // Created by bajd on 6/10/2022.
+    //
+    #include <stdio.h>
+    #include <math.h>
+    #include <string.h>
+
+    void completion(float x) {
+        if (round(tan(x)) == 0){
+            printf("Congratulations on completing the week 5 module!\n");
+            printf("You should be all set for Assignment 5.\n");
+            printf("Your password for the onQ completion quiz is \"Daybreak\".\n");
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

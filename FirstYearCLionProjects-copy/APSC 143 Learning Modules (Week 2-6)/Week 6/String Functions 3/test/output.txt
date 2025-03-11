@@ -1,0 +1,5 @@
+Enter string:
+camel before tangerine
+Congratulations on completing the week 6 module!
+You should be all set for Assignment 6.
+Your password for the onQ completion quiz is "Squirrel".

@@ -1,0 +1,95 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |-
+    Enter string:
+    camel before tangerine
+    Congratulations on completing the week 6 module!
+    You should be all set for Assignment 6.
+    Your password for the onQ completion quiz is "Squirrel".
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_6-String_Functions_4)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp "../String Functions 4/src/password6.cpp" "../String Functions 4/src/password6.h")
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 19
+    length: 32
+    placeholder_text: /* Include the string library */
+    initial_state:
+      length: 32
+      offset: 19
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '#include <string.h>'
+  - offset: 174
+    length: 41
+    placeholder_text: /* Compare the strings & store in comp */
+    initial_state:
+      length: 41
+      offset: 174
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: ' int comp = strcmp(test, user);'
+  - offset: 223
+    length: 25
+    placeholder_text: /* Check value of comp */
+    initial_state:
+      length: 25
+      offset: 223
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: comp == 0
+  - offset: 316
+    length: 25
+    placeholder_text: /* Check value of comp */
+    initial_state:
+      length: 25
+      offset: 316
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: comp > 0
+  text: |-
+    #include <stdio.h>
+    /* Include the string library */
+
+    int main() {
+        char test[] = "tangerine";
+        char user[30];
+        printf("Enter string:\n");
+        scanf("%s", &user);
+       /* Compare the strings & store in comp */
+        if(/* Check value of comp */)
+            // test = user
+            printf("The same!\n");
+        else if(/* Check value of comp */)
+            // test > user
+            printf("%s before %s\n", user, test);
+        else
+            // test < user
+            printf("%s before %s\n", test, user);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

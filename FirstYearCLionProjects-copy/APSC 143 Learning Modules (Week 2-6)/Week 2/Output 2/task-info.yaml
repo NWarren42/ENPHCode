@@ -1,0 +1,56 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Welcome to APSC 143. Computer programming is fun!
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Output_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: test/latest_output.txt
+  visible: true
+  learner_created: true
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 41
+    length: 76
+    placeholder_text: /* Copy code from the last task here */
+    initial_state:
+      length: 39
+      offset: 41
+    initialized_from_dependency: false
+    selected: true
+    status: Solved
+    encrypted_possible_answer: |-
+      printf("Welcome to APSC 143. ");
+              printf("Computer programming is fun!\n");
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+            /* Copy code from the last task here */
+            return 0;
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Fri, 09 Sep 2022 16:58:32 UTC
+record: -1

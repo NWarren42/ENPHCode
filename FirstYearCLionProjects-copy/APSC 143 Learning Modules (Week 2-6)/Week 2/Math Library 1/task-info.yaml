@@ -1,0 +1,77 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    The cube of x is 199.18
+    The sine of x is -0.43
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Math_Library_1)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 19
+    length: 30
+    placeholder_text: /* include the math library */
+    initial_state:
+      length: 30
+      offset: 19
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '#include <math.h>'
+  - offset: 102
+    length: 23
+    placeholder_text: /* exponent function */
+    initial_state:
+      length: 23
+      offset: 102
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: pow(x, 3)
+  - offset: 190
+    length: 19
+    placeholder_text: /* sine function */
+    initial_state:
+      length: 19
+      offset: 190
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: sin(x)
+  text: |-
+    #include <stdio.h>
+    /* include the math library */
+
+    int main() {
+        float x = 5.84;
+
+        float cube = /* exponent function */;
+        printf("The cube of x is %.2f\n", cube);
+
+        float wave = /* sine function */;
+        printf("The sine of x is %.2f\n", wave);
+
+        return 0;
+    }
+  learner_created: false
+status: Unchecked
+record: -1

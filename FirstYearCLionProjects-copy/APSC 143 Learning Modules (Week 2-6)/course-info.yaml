@@ -1,0 +1,16 @@
+title: APSC 143 Learning Modules (Week 2-6)
+language: English
+summary: |-
+  Interactive modules for learning new concepts in the C language
+  for APSC 143 students.
+programming_language: C/C++
+environment: Catch
+content:
+- Week 2
+- Week 3
+- Week 4
+- Week 5
+- Week 6
+mode: Study
+vendor:
+  name: Bajd

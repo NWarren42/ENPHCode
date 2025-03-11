@@ -1,0 +1,82 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Word = "watermelon"
+    Smallest letter = 'a'
+    Largest letter = 'w'
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_6-Strings_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 51
+    length: 21
+    placeholder_text: /* Initialize word */
+    initial_state:
+      length: 21
+      offset: 51
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '"watermelon"'
+  - offset: 78
+    length: 54
+    placeholder_text: /* Define & initialize largest & smallest variables */
+    initial_state:
+      length: 54
+      offset: 78
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      char min = word[0];
+          char max = word[0];
+  - offset: 137
+    length: 49
+    placeholder_text: /* loop to find the largest & smallest letters */
+    initial_state:
+      length: 49
+      offset: 137
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      for(int i = 0; i < sizeof(word) / sizeof(word[0]) - 1; i++) {
+              if(word[i] < min)
+                  min = word[i];
+              else if(word[i] > max)
+                  max = word[i];
+          }
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        char word[] = /* Initialize word */;
+        /* Define & initialize largest & smallest variables */
+        /* loop to find the largest & smallest letters */
+        printf("Word = \"%s\"\n", word);
+        printf("Smallest letter = '%c'\n", min);
+        printf("Largest letter = '%c'\n", max);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

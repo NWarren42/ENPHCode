@@ -1,0 +1,68 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    4       19      10      22
+    23      7       2       13
+    14      0       27      8
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_5-2D_Arrays_1)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 54
+    length: 28
+    placeholder_text: /* initialize whole array */
+    initial_state:
+      length: 28
+      offset: 54
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      { {4, 19, 10, 22},
+                             {23, 7, 2, 13},
+                             {14, 0, 27, 8} }
+  - offset: 178
+    length: 22
+    placeholder_text: /* print each value */
+    initial_state:
+      length: 22
+      offset: 178
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: printf("%d\t", nums[row][col]);
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        int nums[3][4] = /* initialize whole array */;
+        for(int row = 0; row < 3; row++) {
+            for(int col = 0; col < 4; col++) {
+                /* print each value */
+            }
+            printf("\n");
+        }
+    }
+  learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,3 @@
+C:/Users/Noah/CLionProjects/CheatSheet/cmake-build-debug/CMakeFiles/CheatSheet.dir
+C:/Users/Noah/CLionProjects/CheatSheet/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Noah/CLionProjects/CheatSheet/cmake-build-debug/CMakeFiles/rebuild_cache.dir

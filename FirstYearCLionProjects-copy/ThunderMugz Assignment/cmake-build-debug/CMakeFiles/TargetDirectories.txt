@@ -1,0 +1,3 @@
+C:/Users/Noah/CLionProjects/ThunderMugz Assignment/cmake-build-debug/CMakeFiles/ThunderMugz_Assignment.dir
+C:/Users/Noah/CLionProjects/ThunderMugz Assignment/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Noah/CLionProjects/ThunderMugz Assignment/cmake-build-debug/CMakeFiles/rebuild_cache.dir

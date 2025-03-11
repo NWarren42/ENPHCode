@@ -1,0 +1,2 @@
+Word = "irrevocably"
+Average letter = 'k'

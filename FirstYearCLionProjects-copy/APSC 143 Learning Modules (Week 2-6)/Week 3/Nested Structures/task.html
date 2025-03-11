@@ -1,0 +1,42 @@
+<html>
+
+<h2>Nested Selection Structures</h2>
+
+<p>You can also use selection structures <strong>inside</strong> of other
+selection structures, which can significantly increase the complexity of our
+programs. This task will use a nested selection structure to "spin" though
+the letters of the alphabet.</p>
+
+<p>The <strong>letter</strong> variable holds the starting letter, while the
+<strong>move</strong> variable equals the number of letters we have to spin
+through to get to the final letter. If we go beyond 'Z', the program should
+loop back to 'A'.</p>
+
+<p>Begin by writing an if-else block that uses the condition that the int
+<strong>move</strong> is between 1 and 25 inclusive. Inside this loop, we want to
+perform the following tasks:</p>
+
+<ul>Add the value of <strong>move</strong> to <strong>letter</strong>. Keep
+in mind that letters are stored numerically!</ul>
+
+<ul>Check whether the <strong>new</strong> value for letter has <strong>surpassed
+</strong> the numerical value of 'Z'. If true, <strong>subtract 26</strong>
+from the value of <strong>letter</strong> to loop back to 'A'.</ul>
+
+<p>If you get stuck, see the hints below. When done correctly, the updated value
+for letter will be <strong>'D'</strong>.</p>
+
+<div class="hint">
+  if(move is greater than 0 && move is less than 26) { add move to letter; ... }
+</div>
+
+<div class="hint">
+  if(letter is greater than 'Z') { subract 26 from letter }
+</div>
+
+<p>As always, experimentation is encouraged. </p>
+
+</p> Once you complete this task, the console will print a password for
+you to use to access the <strong>"Week 3 Learning Module Completion Quiz"</strong> on OnQ. </p>
+
+</html>

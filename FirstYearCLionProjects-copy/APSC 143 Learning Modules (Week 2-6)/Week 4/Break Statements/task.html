@@ -1,0 +1,29 @@
+<html>
+
+<h2>The Break Function</h2>
+
+<p>Another way to exit a loop <strong>without</strong> triggering its exit
+condition is by using a <strong>break function</strong>. This will generally
+allow us to use one or more additional exit conditions.</p>
+
+<p>To begin, take a look at the provided code which simulates paying off debt
+over 12 months. On each iteration of the loop, the remaining debt accumulates
+interest, then the payment is made toward paying off the remaining debt.</p>
+
+<p>While this is functioning code, there is a logic error. Try running the code;
+you will see that the debt becomes negative and payments continue to be made.
+How can this be fixed?</p>
+
+<p>Write a condition inside the for loop that will <strong>stop the loop</strong>
+once the debt has <strong>reached 0</strong>. If you need help, check the hints
+below.</p>
+
+<div class="hint">
+  if(payment is greater than or equal to debt) { ... }
+</div>
+
+<div class="hint">
+  inside the condition: set the debt to zero, then break;
+</div>
+
+</html>

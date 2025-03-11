@@ -1,0 +1,84 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Enter letter index & new letter:
+    Enter letter index & new letter:
+    Enter letter index & new letter:
+    Enter letter index & new letter:
+    Enter letter index & new letter:
+    Enter letter index & new letter:
+    Final word = "ridden"
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_6-Strings_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 36
+    length: 33
+    placeholder_text: /* Declare & initialize boggle */
+    initial_state:
+      length: 33
+      offset: 36
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: char boggle[] = "banked";
+  - offset: 207
+    length: 31
+    placeholder_text: /* pos must be a valid index */
+    initial_state:
+      length: 31
+      offset: 207
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: pos >= 0 && pos < sizeof(boggle) / sizeof(boggle[0])
+  - offset: 251
+    length: 24
+    placeholder_text: /* Replace the letter */
+    initial_state:
+      length: 24
+      offset: 251
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: boggle[pos] = key;
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+       /* Declare & initialize boggle */
+       int pos;
+       char key;
+       while(1) {
+           printf("Enter letter index & new letter:\n");
+           scanf("%d %c", &pos, &key);
+           if(/* pos must be a valid index */)
+               /* Replace the letter */
+           else
+               break;
+       }
+       printf("Final word = \"%s\"\n", boggle);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

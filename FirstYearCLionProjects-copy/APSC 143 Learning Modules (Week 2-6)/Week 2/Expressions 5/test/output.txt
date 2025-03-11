@@ -1,0 +1,2 @@
+Enter two numbers:
+New x value = 8.667

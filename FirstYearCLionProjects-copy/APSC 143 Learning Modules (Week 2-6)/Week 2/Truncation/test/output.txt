@@ -1,0 +1,4 @@
+Value of z is 2.71
+Congratulations on completing the week 2 module!
+You should be all set for Assignment 2.
+Your password for the onQ completion quiz is "Longing".

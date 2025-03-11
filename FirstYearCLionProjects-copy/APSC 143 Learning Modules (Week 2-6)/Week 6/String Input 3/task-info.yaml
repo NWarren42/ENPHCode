@@ -1,0 +1,34 @@
+type: ide
+files:
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_6-String_Input_3)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        char word[35];
+        printf("Enter a sentence:\n");
+        fgets(word, 35, stdin);
+        printf("%s\n", word);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

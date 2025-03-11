@@ -1,0 +1,69 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    x = q
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Variables_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 37
+    length: 19
+    placeholder_text: /* variable type */
+    initial_state:
+      length: 19
+      offset: 37
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: char
+  - offset: 68
+    length: 17
+    placeholder_text: /* value for x */
+    initial_state:
+      length: 17
+      offset: 68
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '''q'''
+  - offset: 98
+    length: 22
+    placeholder_text: /* printf arguments */
+    initial_state:
+      length: 22
+      offset: 98
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '"x = %c\n", x'
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        /* variable type */ x;
+        x = /* value for x */;
+        printf(/* printf arguments */);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

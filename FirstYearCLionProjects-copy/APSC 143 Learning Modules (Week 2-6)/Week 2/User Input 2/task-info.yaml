@@ -1,0 +1,71 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    int = 35, char = 'u'
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-User_Input_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 54
+    length: 27
+    placeholder_text: /* declare char variable */
+    initial_state:
+      length: 27
+      offset: 54
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: char userChar;
+  - offset: 92
+    length: 26
+    placeholder_text: /* scanf arguments here */
+    initial_state:
+      length: 26
+      offset: 92
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '"%d %c", &userInt, &userChar'
+  - offset: 132
+    length: 27
+    placeholder_text: /* printf arguments here */
+    initial_state:
+      length: 27
+      offset: 132
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: '"int = %d, char = ''%c''\n", userInt, userChar'
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        int userInt;
+        /* declare char variable */
+        scanf(/* scanf arguments here */);
+        printf(/* printf arguments here */);
+        return 0;
+    }
+  learner_created: false
+status: Unchecked
+record: -1

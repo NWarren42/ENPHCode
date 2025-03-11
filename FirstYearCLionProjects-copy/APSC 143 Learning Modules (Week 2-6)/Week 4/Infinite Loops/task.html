@@ -1,0 +1,26 @@
+<html>
+
+<h2>Infinite Loops</h2>
+
+<p>One of the more common mistakes when programming repetition structures is to
+accidentally create an <strong>infinite loop</strong>, where the exit condition
+is not reachable. Naturally, this causes your code to run indefinitely until
+stopped manually.</p>
+
+<p>The example code, which simulates exponential decay, displays such an example
+of an infinite loop. On each iteration, the population variable <strong>pop
+</strong> is updated by multiplying
+itself by <strong>0.99^i</strong>, where i is the loop counter variable.</p>
+
+<p>To fix this problem, think about the population variable as representing the
+population of a city or town - the loop should exit when there is no one left in
+the population. The hint should help if you're still confused.</p>
+
+<div class="hint">
+  If the population is less than 1, there is no one left so we should stop looping.
+</div>
+
+<p>Note that there is no Peek Solution for this task. Whenever you write a new
+loop, make sure an exit condition is always reachable!</p>
+
+</html>

@@ -1,0 +1,2 @@
+While loop ran 0 times.
+Do-while loop ran 2 times.

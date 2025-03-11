@@ -1,0 +1,56 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Consonants:
+    b c d f g h j k l m n p q r s t v w x z
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_4_Continue_Statements)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 115
+    length: 25
+    placeholder_text: /* continue check here */
+    initial_state:
+      length: 25
+      offset: 115
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      if(key == 'a' || key == 'e' || key == 'i' ||
+              key == 'o' || key == 'u' || key == 'y')
+                  continue;
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        printf("Consonants:\n");
+        for(char key = 'a'; key <= 'z'; key++) {
+            /* continue check here */
+            printf("%c ", key);
+        }
+        printf("\n");
+    }
+  learner_created: false
+status: Unchecked
+record: -1

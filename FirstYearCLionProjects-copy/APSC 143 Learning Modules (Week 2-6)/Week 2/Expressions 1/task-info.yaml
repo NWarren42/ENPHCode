@@ -1,0 +1,50 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    The product of 2.48 and 6.07 is 15.05
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_2-Expressions_1)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 77
+    length: 44
+    placeholder_text: /* declare & initialize the product value */
+    initial_state:
+      length: 44
+      offset: 77
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: float z = x * y;
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        float x = 2.48;
+        float y = 6.07;
+        /* declare & initialize the product value */
+        printf("The product of %.2f and %.2f is %.2f\n", x, y, z);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

@@ -1,0 +1,38 @@
+type: ide
+files:
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_4-While_Loops_1)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        int key, total;
+        total = 0;
+        while(key != 0) {
+            printf("Enter an integer (0 to exit):\n");
+            scanf("%d", &key);
+            total += key;
+        }
+        printf("Total = %d\n", total);
+    }
+  learner_created: false
+status: Unchecked
+record: -1

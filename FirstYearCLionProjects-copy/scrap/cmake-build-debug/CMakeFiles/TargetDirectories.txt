@@ -1,0 +1,3 @@
+C:/Users/Noah/CLionProjects/scrap/cmake-build-debug/CMakeFiles/scrap.dir
+C:/Users/Noah/CLionProjects/scrap/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Noah/CLionProjects/scrap/cmake-build-debug/CMakeFiles/rebuild_cache.dir

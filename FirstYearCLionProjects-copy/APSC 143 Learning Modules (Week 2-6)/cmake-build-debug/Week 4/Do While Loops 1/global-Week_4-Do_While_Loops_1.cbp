@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="global-Week_4-Do_While_Loops_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\Week 2\;CMake Files\Week 2\Expressions 1\;CMake Files\Week 2\Expressions 2\;CMake Files\Week 2\Expressions 3\;CMake Files\Week 2\Expressions 4\;CMake Files\Week 2\Expressions 5\;CMake Files\Week 2\First Program\;CMake Files\Week 2\Math Library 1\;CMake Files\Week 2\Math Library 2\;CMake Files\Week 2\Math Library 3\;CMake Files\Week 2\Output 1\;CMake Files\Week 2\Output 2\;CMake Files\Week 2\Output 3\;CMake Files\Week 2\Truncation\;CMake Files\Week 2\User Input 1\;CMake Files\Week 2\User Input 2\;CMake Files\Week 2\User Input 3\;CMake Files\Week 2\Variables 1\;CMake Files\Week 2\Variables 2\;CMake Files\Week 2\Variables 3\;CMake Files\Week 3\;CMake Files\Week 3\Chained Statements 1\;CMake Files\Week 3\Chained Statements 2\;CMake Files\Week 3\Conditional Operator\;CMake Files\Week 3\If Else Statements 1\;CMake Files\Week 3\If Else Statements 2\;CMake Files\Week 3\Logical Conditions 1\;CMake Files\Week 3\Logical Conditions 2\;CMake Files\Week 3\Logical Conditions 3\;CMake Files\Week 3\Logical Conditions 4\;CMake Files\Week 3\Nested Structures\;CMake Files\Week 3\Switch Case Statements\;CMake Files\Week 4\;CMake Files\Week 4\Break Statements\;CMake Files\Week 4\Continue Statements\;CMake Files\Week 4\Do While Loops 1\;CMake Files\Week 4\Do While Loops 2\;CMake Files\Week 4\For Loops 1\;CMake Files\Week 4\For Loops 2\;CMake Files\Week 4\Infinite Loops\;CMake Files\Week 4\Nested Loops\;CMake Files\Week 4\While Loops 1\;CMake Files\Week 4\While Loops 2\;CMake Files\Week 5\;CMake Files\Week 5\1D Arrays 1\;CMake Files\Week 5\1D Arrays 2\;CMake Files\Week 5\1D Arrays 3\;CMake Files\Week 5\2D Arrays 1\;CMake Files\Week 5\2D Arrays 2\;CMake Files\Week 5\2D Arrays 3\;CMake Files\Week 5\Random Function\;CMake Files\Week 6\;CMake Files\Week 6\String Arrays\;CMake Files\Week 6\String Functions 1\;CMake Files\Week 6\String Functions 2\;CMake Files\Week 6\String Functions 3\;CMake Files\Week 6\String Functions 4\;CMake Files\Week 6\String Input 1\;CMake Files\Week 6\String Input 2\;CMake Files\Week 6\String Input 3\;CMake Files\Week 6\Strings 1\;CMake Files\Week 6\Strings 2\;CMake Files\Week 6\Strings 3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global-Week_4-Do_While_Loops_1-run">
+				<Option output="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/global-Week_4-Do_While_Loops_1-run.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/test-framework"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 global-Week_4-Do_While_Loops_1-run"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global-Week_4-Do_While_Loops_1-run/fast">
+				<Option output="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/global-Week_4-Do_While_Loops_1-run.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/test-framework"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="/mingw/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 global-Week_4-Do_While_Loops_1-run/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.1/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake-build-debug/Week 4/Do While Loops 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/Do While Loops 1/src/main.cpp">
+			<Option target="global-Week_4-Do_While_Loops_1-run"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake/catch.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/cmake/utils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Expressions 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Expressions 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Expressions 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Expressions 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Expressions 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Expressions 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Expressions 4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Expressions 4\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Expressions 5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Expressions 5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/First Program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\First Program\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Math Library 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Math Library 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Math Library 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Math Library 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Math Library 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Math Library 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Output 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Output 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Output 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Output 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Output 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Output 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Truncation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Truncation\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/User Input 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\User Input 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/User Input 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\User Input 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/User Input 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\User Input 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Variables 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Variables 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Variables 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Variables 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 2/Variables 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 2\Variables 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Chained Statements 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Chained Statements 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Chained Statements 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Chained Statements 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Conditional Operator/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Conditional Operator\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/If Else Statements 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\If Else Statements 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/If Else Statements 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\If Else Statements 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Logical Conditions 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Logical Conditions 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Logical Conditions 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Logical Conditions 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Logical Conditions 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Logical Conditions 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Logical Conditions 4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Logical Conditions 4\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Nested Structures/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Nested Structures\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 3/Switch Case Statements/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 3\Switch Case Statements\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/Break Statements/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\Break Statements\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/Continue Statements/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\Continue Statements\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/Do While Loops 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\Do While Loops 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/Do While Loops 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\Do While Loops 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/For Loops 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\For Loops 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/For Loops 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\For Loops 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/Infinite Loops/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\Infinite Loops\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/Nested Loops/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\Nested Loops\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/While Loops 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\While Loops 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 4/While Loops 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 4\While Loops 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 5/1D Arrays 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 5\1D Arrays 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 5/1D Arrays 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 5\1D Arrays 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 5/1D Arrays 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 5\1D Arrays 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 5/2D Arrays 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 5\2D Arrays 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 5/2D Arrays 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 5\2D Arrays 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 5/2D Arrays 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 5\2D Arrays 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 5/Random Function/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 5\Random Function\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/String Arrays/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\String Arrays\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/String Functions 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\String Functions 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/String Functions 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\String Functions 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/String Functions 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\String Functions 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/String Functions 4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\String Functions 4\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/String Input 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\String Input 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/String Input 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\String Input 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/String Input 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\String Input 3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/Strings 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\Strings 1\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/Strings 2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\Strings 2\"/>
+		</Unit>
+		<Unit filename="C:/Users/Noah/CLionProjects/APSC 143 Learning Modules (Week 2-6)/Week 6/Strings 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Week 6\Strings 3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

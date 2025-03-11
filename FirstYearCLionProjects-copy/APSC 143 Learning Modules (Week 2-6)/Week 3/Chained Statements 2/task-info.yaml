@@ -1,0 +1,59 @@
+type: output
+files:
+- name: test/output.txt
+  visible: false
+  text: |
+    Mangoes
+  learner_created: false
+- name: CMakeLists.txt
+  visible: false
+  text: |-
+    cmake_minimum_required(VERSION 3.19)
+
+    project(global-Week_3-Chained_Statements_2)
+
+    set(CMAKE_CXX_STANDARD 14)
+
+    # Files from `./src` directory
+    set(SRC
+            src/main.cpp)
+
+
+    # Running learner side code
+    # Use PROJECT_NAME dependent names of targets for the plugin support to work correctly.
+    add_executable(${PROJECT_NAME}-run ${SRC})
+  learner_created: false
+- name: src/main.cpp
+  visible: true
+  placeholders:
+  - offset: 60
+    length: 27
+    placeholder_text: /* if-else if chain here */
+    initial_state:
+      length: 27
+      offset: 60
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: |-
+      if(fruit == 'a')
+              printf("Apples\n");
+          else if(fruit == 'b')
+              printf("Bananas\n");
+          else if(fruit == 'g')
+              printf("Grapefruit\n");
+          else if(fruit == 'm')
+              printf("Mangoes\n");
+          else
+              printf("Fresh out of fruit\n");
+  text: |-
+    #include <stdio.h>
+
+    int main() {
+        char fruit = 'm';
+
+        /* if-else if chain here */
+    }
+  learner_created: false
+status: Unchecked
+record: -1
