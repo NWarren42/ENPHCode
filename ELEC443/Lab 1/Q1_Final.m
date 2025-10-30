@@ -1,0 +1,34 @@
+% Import Q1 data from the csv file
+filename = "Q1_K1_tau1_Arrays.csv";
+dataTable = readtable(filename);
+
+times                = dataTable.Time_s_;
+voltages             = dataTable.Voltage_V_;
+predictedFrequencies = dataTable.SetFrequency_rad_s_;
+measuredFrequencies  = dataTable.MeasuredFrequency_rad_s_;
+
+% Making the Voltage input graph
+subplot(2, 1, 1)
+plot(times, voltages, "LineWidth", 1.5)
+
+ylim([0, 4])
+
+% Chart titles not asked for in the report. I'm favoring captions to chart
+% titles
+% title("Input Voltage to SRV-02 Over Time")
+
+ylabel("Voltage [V]")
+xlabel("Time [s]")
+
+legend("Input Voltage")
+
+% Measured frequency response graph
+subplot(2, 1, 2)
+plot(times, predictedFrequencies, times, measuredFrequencies, "LineWidth", 1.5)
+ylim([-5, 35])
+
+% title("First Order Expected Output Compared to Actual SRV-02 Dynamics. K = 1, τ = 0.1")
+ylabel("Angular Frequency [rad/s]")
+xlabel("Time [s]")
+
+legend(["Predicted System Response", "Measured System Response"], Location="northeast")

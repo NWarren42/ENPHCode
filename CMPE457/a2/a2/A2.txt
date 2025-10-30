@@ -1,0 +1,63 @@
+CMPE/CISC 457 Assignment 2
+
+Due October 31 at NOON.
+
+In this assignment, you will implement code to
+
+  (a) implement 1D inverse FFT and 2D forward and inverse FFTs
+  
+  (b) edit the Fourier Transform of an image by increasing or
+      decreasing magnitudes of complex Fourier coefficients that you
+      click on.
+
+1. Get the code compiling and running.  For Linux and MacOS, see the
+   README.txt files.  For Windows, click on the project file.  Run the
+   code as
+
+     ./conv ../images/clown.png ../filters/gaussian3
+
+   Press '?' with the mouse in the program window to have a list of
+   commands printed in the terminal window.  Apply the Fourier
+   Transform to several of the images to see what appears in the
+   spectral domain.
+
+2. Read compute.h and compute.cpp and understand how this works.
+   Understand very clearly the classes in compute.h.
+
+3. Modify the functions in compute.cpp according to the comments in
+   that code at "[YOUR CODE HERE]".
+
+4. Denoise as best you can the canvas, moon, and mariner6 images using
+   editing in the Fourier domain.
+
+
+To submit:
+
+   In a single directory called 'a2' put the following SIX FILES WITH
+   EXACTLY THESE NAMES:
+
+      README.txt - containing the name, student number, and netID of each
+		   person working on the assignment.  Include here any
+		   comments you have for the TA. 
+
+      compute.cpp
+      compute.h
+
+      denoised_mariner.png
+      denoised_moon.png
+      denoised_canvas.png
+
+   YOU WILL LOSE 1 MARK IF YOU INCLUDE ANY OTHER FILES OR NAME YOUR
+   DIRECTORY SOMETHING OTHER THAN a2.  In particular, do NOT include
+   the 'filters' or 'images' directories, and do NOT include any
+   OSX-specific directories (e.g. '__MACOSX').  If you are using OSX,
+   you WILL NOT SEE __MACOSX, but it will be there and you will lose a
+   mark.  Check your archive on a non-OSX system before submitting it.
+
+   Zip that a2 directory and submit it through OnQ as 'a2.zip'.
+
+   IN A GROUP OF TWO, ONLY ONE PERSON MAY SUBMIT THE ASSIGNMENT.  IF
+   YOUR GROUP SUBMITS TWO ASSIGNMENTS, YOU WILL LOSE MARKS.
+
+For marking, we will read your code for correctness, clarity, and
+quality, and we will run your code.

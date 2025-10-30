@@ -1,0 +1,13 @@
+﻿  canvas.cpp
+  drawSegs.cpp
+  editor.cpp
+  fg_stroke.cpp
+  gpuProgram.cpp
+  linalg.cpp
+  lodepng.cpp
+  main.cpp
+  strokefont.cpp
+  texture.cpp
+  Generating Code...
+  glad.c
+  editor.vcxproj -> C:\code\school\CMPE457\a1\a1\windows\Debug\editor.exe

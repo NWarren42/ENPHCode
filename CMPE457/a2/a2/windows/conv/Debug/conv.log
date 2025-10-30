@@ -1,0 +1,14 @@
+﻿  canvas.cpp
+  compute.cpp
+  drawSegs.cpp
+  fg_stroke.cpp
+  filter.cpp
+  gpuProgram.cpp
+  linalg.cpp
+  lodepng.cpp
+  main.cpp
+  strokefont.cpp
+  texture.cpp
+  Generating Code...
+  glad.c
+  conv.vcxproj -> C:\code\school\CMPE457\a2\a2\windows\Debug\conv.exe

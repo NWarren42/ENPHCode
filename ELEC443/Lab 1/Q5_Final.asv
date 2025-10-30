@@ -1,0 +1,22 @@
+% Import Q1 data from the csv file
+filename = "Q1_K1_tau1_Arrays.csv";
+dataTable = readtable(filename);
+
+times                = dataTable.Time_s_;
+voltages             = dataTable.Voltage_V_;
+predictedFrequencies = dataTable.SetFrequency_rad_s_;
+measuredFrequencies  = dataTable.MeasuredFrequency_rad_s_;
+
+lowTime = 1250;
+highTime = 1500;
+
+% Measured frequency response graph
+plot(times(lowTime:highTime), measuredFrequencies(lowTime:highTime))
+ylim([5, 30])
+xlim([2.5, 2.7])
+
+title("First Order Expected Output Compared to Actual SRV-02 Dynamics. K = 1, τ = 0.1")
+ylabel("Angular Frequency [rad/s]")
+xlabel("Time [s]")
+
+legend(["Predicted System Response", "Measured System Response"], Location="northeast")

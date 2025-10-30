@@ -1,0 +1,11 @@
+lowW = 7.593;
+highW = 25.05;
+
+plot(wl(1:2500, 1), wl(1:2500, 2))
+
+yline(lowW + 0.63*(highW - lowW), Color="#FF2800", Label="68")
+
+xlim([2.5, 2.7])
+ylim([5, 27])
+
+title("Single Control Cycle SRV02")
